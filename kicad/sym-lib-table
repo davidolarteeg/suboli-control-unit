@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "suboli_control")(type "KiCad")(uri "${KIPRJMOD}/suboli_control.kicad_sym")(options "")(descr "SUBOLI project-local symbols"))
+)

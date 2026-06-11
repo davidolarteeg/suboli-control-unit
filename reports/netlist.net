@@ -1,0 +1,3315 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/davidolarte/Documents/SUBOLI Build/suboli-control-unit/kicad/suboli_control.kicad_sch")
+		(date "2026-06-11T14:02:49")
+		(tool "Eeschema 10.0.3")
+		(textvar
+			(name "PROJECT_NAME") "SUBOLI Control Unit")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "SUBOLI Control Unit Carrier / Motherboard")
+				(company "SUBOLI")
+				(rev "Schematic phase")
+				(date "2026-06-08")
+				(source "suboli_control.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "MA12070 stereo Class-D module socket, 2xBTL")
+			(fields
+				(field
+					(name "Pending") "EN/MUTE left NC until module pad map/behavior is supplied")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "A1_MA12070_MODULE")
+				(description "MA12070 stereo module socket")
+			)
+			(property
+				(name "Pending")
+				(value "EN/MUTE left NC until module pad map/behavior is supplied")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "57245602-da97-53e1-92f3-7ab24c50190e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "A2")
+			(value "OPA1622 dual op-amp on DIP-8 adapter")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "A2_OPA1622_DIP8")
+				(description "OPA1622 dual op-amp DIP-8 adapter")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2e56104b-bdce-5b76-a5e0-b4bf223def0c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "1000 uF / 35 V bulk")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CP_2PIN")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "333e6c0b-4df3-544f-ac37-55f7a813637a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100 nF main bypass")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "C_2PIN")
+				(description "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b272d061-b65b-5380-acb9-d731441f4881")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "1000 uF / 25 V HP branch bulk")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CP_2PIN")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bafc25e1-def6-59f3-8581-c56353dbe416")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100 nF HP branch bypass")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "C_2PIN")
+				(description "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8ada80f6-e31e-56da-85ec-5e0d93edeaa7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "10 uF A2 V+ bulk decouple")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CP_2PIN")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1536d7dd-3a1c-53b5-9eea-dfbad924b92f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "10 uF VGND decouple")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CP_2PIN")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8fbcaca8-38f0-5a53-a96e-a26dc15da43f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100 nF A2 V+ bypass")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "C_2PIN")
+				(description "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c316a79a-700d-5c72-8559-ff70d4e7fe1d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100 nF VGND bypass")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "C_2PIN")
+				(description "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd589b44-0239-50c9-9a95-5bd652652cef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "1 uF film L input coupling")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "C_2PIN")
+				(description "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d14b483a-a4b6-53b8-b2d1-1182af7b3dbb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "1 uF film R input coupling")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "C_2PIN")
+				(description "Capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "057e9205-c2a0-5eb0-a9ab-dfcc76876f35")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "220-470 uF / 25 V L output coupling")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CP_2PIN")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6f1f309d-d1a4-5fdc-b65e-ff902aaed3b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "220-470 uF / 25 V R output coupling")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CP_2PIN")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e61284c5-25a8-5adc-849c-0a261b43e3e5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SB560 Schottky reverse-polarity diode")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "D_2PIN")
+				(description "Diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "06fa5c38-32a2-544b-b334-598d47ffe49c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "PPTC fuse ~3 A")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "FUSE_2PIN")
+				(description "Fuse/PPTC")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2b99cce4-f6fb-5bab-ab61-1a754b572700")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FB1")
+			(value "Ferrite bead >=1 A")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "FERRITE_2PIN")
+				(description "Ferrite bead")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d89c0422-d168-5aa1-ab34-3960749a403d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_DC")
+			(value "DC barrel jack panel header 5.5x2.5")
+			(fields
+				(field
+					(name "Pinout") "1=center, 2=sleeve")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CONN_2")
+				(description "2-pin panel header")
+			)
+			(property
+				(name "Pinout")
+				(value "1=center, 2=sleeve")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9d3ba907-9e99-5466-9447-11b0bdec82a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_HP")
+			(value "3.5 mm TRS headphone panel header")
+			(fields
+				(field
+					(name "Pinout") "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CONN_3_TRS")
+				(description "TRS panel header")
+			)
+			(property
+				(name "Pinout")
+				(value "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "77e559ff-1171-5973-a8c6-3ebfcf14afb3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_IN")
+			(value "3.5 mm TRS input panel header")
+			(fields
+				(field
+					(name "Pinout") "Tip=IN_L, Ring=IN_R, Sleeve=GND_SIG")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CONN_3_TRS")
+				(description "TRS panel header")
+			)
+			(property
+				(name "Pinout")
+				(value "Tip=IN_L, Ring=IN_R, Sleeve=GND_SIG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "93d9ad31-78f2-5acc-a3b0-da9d772be832")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_SPK")
+			(value "4-pole Speakon/XLR panel header")
+			(fields
+				(field
+					(name "Pinout") "1+=OUTL+, 1-=OUTL−, 2+=OUTR+, 2-=OUTR−")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CONN_4")
+				(description "4-pin panel header")
+			)
+			(property
+				(name "Pinout")
+				(value "1+=OUTL+, 1-=OUTL−, 2+=OUTR+, 2-=OUTR−")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0052bc4a-a162-5863-b9c8-c85c062d2be5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "Power LED")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "LED_2PIN")
+				(description "LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e2502b8d-6966-51b2-b838-5b185f9d0324")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "NT1")
+			(value "Only GND_SIG to GND_STAR connection")
+			(fields
+				(field
+					(name "Purpose") "single physical star point")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "NET_TIE_2")
+				(description "Single star ground net tie")
+			)
+			(property
+				(name "Purpose")
+				(value "single physical star point")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "51589d76-78d1-5045-8545-8c1e7224fb19")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P_HP")
+			(value "Dual-gang 10 k log headphone volume panel header")
+			(fields
+				(field
+					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "POT_DUAL_HEADER")
+				(description "Dual-gang pot panel header")
+			)
+			(property
+				(name "Wiring")
+				(value "top=input, wiper=output, bottom=GND_SIG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "39eb8c26-8389-5bff-a723-00edb8c5bc23")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P_TACT")
+			(value "Dual-gang 10 k log tactile volume panel header")
+			(fields
+				(field
+					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "POT_DUAL_HEADER")
+				(description "Dual-gang pot panel header")
+			)
+			(property
+				(name "Wiring")
+				(value "top=input, wiper=output, bottom=GND_SIG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e742e5a-5e32-5844-92a4-0c6d08c3be66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "8.2 k LED resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "880b6ab6-7d23-598a-903d-bad9249bc2e6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "47-100 k L input bias to VGND")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6a4f928d-63ef-55f3-a9dd-f8ea573ffe1c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "47-100 k R input bias to VGND")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "95590dfb-19f9-5e59-b4ad-283414511ff3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "10 k L feedback")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6699ffa5-c80f-5a06-a3bf-eab0dfdb2db0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "10 k L gain to VGND")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f90059dd-db90-5b60-9938-823c864a79c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "10 k R feedback")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0b80f27c-dfbc-58e2-b890-58a98a7a2b54")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "10 k R gain to VGND")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a64985d3-8df2-5564-a418-6eab5cca4130")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "10 ohm L output series")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ffc4375c-232b-5ce5-8c4c-6a782ea1f002")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "10 ohm R output series")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "98c58e65-26dc-57b5-b564-d6aef2a3b39e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "DPST power switch panel header")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "SW_DPST_HEADER")
+				(description "DPST panel switch header")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b6808d5b-0734-57fb-b13f-2cb2bf11cbda")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TVS1")
+			(value "SMBJ24A TVS")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "D_2PIN")
+				(description "Diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4fbf6bc-6bff-5cf1-b31a-86fb449abeed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_vg")
+			(value "TLE2426 rail splitter")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "TLE2426_3PIN")
+				(description "TLE2426 rail splitter")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7e044ee2-f784-5e4c-a5f4-054fc7235fbe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "suboli_control")
+			(part "A1_MA12070_MODULE")
+			(description "MA12070 stereo module socket")
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "MA12070 stereo module socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "MA12070 stereo module socket")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PVDD")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "IN0A")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "IN0B")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "IN1A")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "IN1B")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "OUT0A")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "OUT0B")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "OUT1A")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "OUT1B")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "EN/MUTE")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "A2_OPA1622_DIP8")
+			(description "OPA1622 dual op-amp DIP-8 adapter")
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "OPA1622 dual op-amp DIP-8 adapter")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "OPA1622 dual op-amp DIP-8 adapter")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT_L")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "IN_L-")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "IN_L+")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "V-")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "IN_R+")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "IN_R-")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "OUT_R")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "V+")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "CONN_2")
+			(description "2-pin panel header")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "2-pin panel header")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2-pin panel header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "CONN_3_TRS")
+			(description "TRS panel header")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "TRS panel header")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TRS panel header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Tip")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Ring")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Sleeve")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "CONN_4")
+			(description "4-pin panel header")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "4-pin panel header")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "4-pin panel header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "CP_2PIN")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "Polarized capacitor")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "C_2PIN")
+			(description "Capacitor")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "Capacitor")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "D_2PIN")
+			(description "Diode")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "Diode")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "FERRITE_2PIN")
+			(description "Ferrite bead")
+			(fields
+				(field
+					(name "Reference") "FB")
+				(field
+					(name "Value") "Ferrite bead")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ferrite bead")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "FUSE_2PIN")
+			(description "Fuse/PPTC")
+			(fields
+				(field
+					(name "Reference") "F")
+				(field
+					(name "Value") "Fuse/PPTC")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fuse/PPTC")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "LED_2PIN")
+			(description "LED")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "NET_TIE_2")
+			(description "Single star ground net tie")
+			(fields
+				(field
+					(name "Reference") "NT")
+				(field
+					(name "Value") "Single star ground net tie")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single star ground net tie")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND_SIG")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND_STAR")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "POT_DUAL_HEADER")
+			(description "Dual-gang pot panel header")
+			(fields
+				(field
+					(name "Reference") "P")
+				(field
+					(name "Value") "Dual-gang pot panel header")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Dual-gang pot panel header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "L_TOP")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "L_WIPER")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "L_BOTTOM")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "R_TOP")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "R_WIPER")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "R_BOTTOM")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "R_2PIN")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "Resistor")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "SW_DPST_HEADER")
+			(description "DPST panel switch header")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "DPST panel switch header")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DPST panel switch header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A_IN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A_OUT")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "B_IN")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "B_OUT")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
+			(part "TLE2426_3PIN")
+			(description "TLE2426 rail splitter")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TLE2426 rail splitter")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TLE2426 rail splitter")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "COM")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "suboli_control")
+			(uri "${KIPRJMOD}/suboli_control.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/+19V")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "1")
+				(pinfunction "PVDD_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TVS1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/+19V_F")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/+19V_HP")
+			(class "Default")
+			(node
+				(ref "A2")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "FB1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_vg")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/+19V_RAW")
+			(class "Default")
+			(node
+				(ref "J_DC")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "A_IN_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/+19V_SW")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "A_OUT_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/A2_INL_BIAS")
+			(class "Default")
+			(node
+				(ref "A2")
+				(pin "3")
+				(pinfunction "IN_L+_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/A2_INR_BIAS")
+			(class "Default")
+			(node
+				(ref "A2")
+				(pin "5")
+				(pinfunction "IN_R+_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/A2_L_FB")
+			(class "Default")
+			(node
+				(ref "A2")
+				(pin "2")
+				(pinfunction "IN_L-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/A2_OUT_L_RAW")
+			(class "Default")
+			(node
+				(ref "A2")
+				(pin "1")
+				(pinfunction "OUT_L_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/A2_OUT_R_RAW")
+			(class "Default")
+			(node
+				(ref "A2")
+				(pin "7")
+				(pinfunction "OUT_R_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/A2_R_FB")
+			(class "Default")
+			(node
+				(ref "A2")
+				(pin "6")
+				(pinfunction "IN_R-_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/GND_RAW")
+			(class "Default")
+			(node
+				(ref "J_DC")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "B_IN_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/GND_SIG")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "4")
+				(pinfunction "IN0B_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "6")
+				(pinfunction "IN1B_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HP")
+				(pin "3")
+				(pinfunction "Sleeve_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_IN")
+				(pin "3")
+				(pinfunction "Sleeve_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "NT1")
+				(pin "1")
+				(pinfunction "GND_SIG_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_HP")
+				(pin "3")
+				(pinfunction "L_BOTTOM_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_HP")
+				(pin "6")
+				(pinfunction "R_BOTTOM_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_TACT")
+				(pin "3")
+				(pinfunction "L_BOTTOM_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_TACT")
+				(pin "6")
+				(pinfunction "R_BOTTOM_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_vg")
+				(pin "2")
+				(pinfunction "COM_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/GND_STAR")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "A2")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "NT1")
+				(pin "2")
+				(pinfunction "GND_STAR_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "4")
+				(pinfunction "B_OUT_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "TVS1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/HP_INL")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_HP")
+				(pin "2")
+				(pinfunction "L_WIPER_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/HP_INR")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_HP")
+				(pin "5")
+				(pinfunction "R_WIPER_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/HP_L_SER")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/HP_OUT_L")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HP")
+				(pin "1")
+				(pinfunction "Tip_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/HP_OUT_R")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HP")
+				(pin "2")
+				(pinfunction "Ring_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/HP_R_SER")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/IN_L")
+			(class "Default")
+			(node
+				(ref "J_IN")
+				(pin "1")
+				(pinfunction "Tip_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_HP")
+				(pin "1")
+				(pinfunction "L_TOP_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_TACT")
+				(pin "1")
+				(pinfunction "L_TOP_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/IN_R")
+			(class "Default")
+			(node
+				(ref "J_IN")
+				(pin "2")
+				(pinfunction "Ring_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_HP")
+				(pin "4")
+				(pinfunction "R_TOP_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_TACT")
+				(pin "4")
+				(pinfunction "R_TOP_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/OUTL+")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "7")
+				(pinfunction "OUT0A_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SPK")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/OUTL−")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "8")
+				(pinfunction "OUT0B_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SPK")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/OUTR+")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "9")
+				(pinfunction "OUT1A_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SPK")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/OUTR−")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "10")
+				(pinfunction "OUT1B_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SPK")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/PWR_LED_ANODE")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/TACT_INL")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "3")
+				(pinfunction "IN0A_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_TACT")
+				(pin "2")
+				(pinfunction "L_WIPER_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/TACT_INR")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "5")
+				(pinfunction "IN1A_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "P_TACT")
+				(pin "5")
+				(pinfunction "R_WIPER_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "/VGND")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_vg")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(A1-EN{slash}MUTE-Pad11)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "11")
+				(pinfunction "EN/MUTE_11")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)
