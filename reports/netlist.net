@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/davidolarte/Documents/SUBOLI Build/suboli-control-unit/kicad/suboli_control.kicad_sch")
-		(date "2026-06-11T14:02:49")
+		(date "2026-06-11T15:22:02")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "PROJECT_NAME") "SUBOLI Control Unit")
@@ -661,7 +661,7 @@
 		)
 		(comp
 			(ref "C11")
-			(value "220-470 uF / 25 V L output coupling")
+			(value "470uF/25V L output coupling")
 			(fields
 				(field
 					(name "Footprint")
@@ -707,7 +707,7 @@
 		)
 		(comp
 			(ref "C12")
-			(value "220-470 uF / 25 V R output coupling")
+			(value "470uF/25V R output coupling")
 			(fields
 				(field
 					(name "Footprint")
@@ -890,9 +890,11 @@
 			)
 		)
 		(comp
-			(ref "J_DC")
+			(ref "J1")
 			(value "DC barrel jack panel header 5.5x2.5")
 			(fields
+				(field
+					(name "Function") "DC barrel jack 5.5x2.5")
 				(field
 					(name "Pinout") "1=center, 2=sleeve")
 				(field
@@ -909,6 +911,10 @@
 				(lib "suboli_control")
 				(part "CONN_2")
 				(description "2-pin panel header")
+			)
+			(property
+				(name "Function")
+				(value "DC barrel jack 5.5x2.5")
 			)
 			(property
 				(name "Pinout")
@@ -942,64 +948,11 @@
 			)
 		)
 		(comp
-			(ref "J_HP")
-			(value "3.5 mm TRS headphone panel header")
-			(fields
-				(field
-					(name "Pinout") "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "suboli_control")
-				(part "CONN_3_TRS")
-				(description "TRS panel header")
-			)
-			(property
-				(name "Pinout")
-				(value "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "suboli_control.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "77e559ff-1171-5973-a8c6-3ebfcf14afb3")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J_IN")
+			(ref "J2")
 			(value "3.5 mm TRS input panel header")
 			(fields
+				(field
+					(name "Function") "3.5 mm TRS input jack")
 				(field
 					(name "Pinout") "Tip=IN_L, Ring=IN_R, Sleeve=GND_SIG")
 				(field
@@ -1016,6 +969,10 @@
 				(lib "suboli_control")
 				(part "CONN_3_TRS")
 				(description "TRS panel header")
+			)
+			(property
+				(name "Function")
+				(value "3.5 mm TRS input jack")
 			)
 			(property
 				(name "Pinout")
@@ -1052,9 +1009,11 @@
 			)
 		)
 		(comp
-			(ref "J_SPK")
+			(ref "J3")
 			(value "4-pole Speakon/XLR panel header")
 			(fields
+				(field
+					(name "Function") "4-pole Speakon/XLR tactile output")
 				(field
 					(name "Pinout") "1+=OUTL+, 1-=OUTL−, 2+=OUTR+, 2-=OUTR−")
 				(field
@@ -1071,6 +1030,10 @@
 				(lib "suboli_control")
 				(part "CONN_4")
 				(description "4-pin panel header")
+			)
+			(property
+				(name "Function")
+				(value "4-pole Speakon/XLR tactile output")
 			)
 			(property
 				(name "Pinout")
@@ -1096,6 +1059,67 @@
 						(pin
 							(num "4")
 						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "3.5 mm TRS headphone panel header")
+			(fields
+				(field
+					(name "Function") "3.5 mm TRS headphone output jack")
+				(field
+					(name "Pinout") "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CONN_3_TRS")
+				(description "TRS panel header")
+			)
+			(property
+				(name "Function")
+				(value "3.5 mm TRS headphone output jack")
+			)
+			(property
+				(name "Pinout")
+				(value "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "77e559ff-1171-5973-a8c6-3ebfcf14afb3")
+			(units
+				(unit
+					(name "A")
+					(pins
 						(pin
 							(num "3")
 						)
@@ -1208,134 +1232,6 @@
 			)
 		)
 		(comp
-			(ref "P_HP")
-			(value "Dual-gang 10 k log headphone volume panel header")
-			(fields
-				(field
-					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "suboli_control")
-				(part "POT_DUAL_HEADER")
-				(description "Dual-gang pot panel header")
-			)
-			(property
-				(name "Wiring")
-				(value "top=input, wiper=output, bottom=GND_SIG")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "suboli_control.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "39eb8c26-8389-5bff-a723-00edb8c5bc23")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P_TACT")
-			(value "Dual-gang 10 k log tactile volume panel header")
-			(fields
-				(field
-					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "suboli_control")
-				(part "POT_DUAL_HEADER")
-				(description "Dual-gang pot panel header")
-			)
-			(property
-				(name "Wiring")
-				(value "top=input, wiper=output, bottom=GND_SIG")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "suboli_control.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "9e742e5a-5e32-5844-92a4-0c6d08c3be66")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R1")
 			(value "8.2 k LED resistor")
 			(fields
@@ -1383,7 +1279,7 @@
 		)
 		(comp
 			(ref "R2")
-			(value "47-100 k L input bias to VGND")
+			(value "100k L input bias to VGND")
 			(fields
 				(field
 					(name "Footprint")
@@ -1429,7 +1325,7 @@
 		)
 		(comp
 			(ref "R3")
-			(value "47-100 k R input bias to VGND")
+			(value "100k R input bias to VGND")
 			(fields
 				(field
 					(name "Footprint")
@@ -1750,6 +1646,146 @@
 			)
 		)
 		(comp
+			(ref "RV1")
+			(value "Dual-gang 10 k log tactile volume panel header")
+			(fields
+				(field
+					(name "Function") "Tactile volume, dual-gang 10k log")
+				(field
+					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "POT_DUAL_HEADER")
+				(description "Dual-gang pot panel header")
+			)
+			(property
+				(name "Function")
+				(value "Tactile volume, dual-gang 10k log")
+			)
+			(property
+				(name "Wiring")
+				(value "top=input, wiper=output, bottom=GND_SIG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e742e5a-5e32-5844-92a4-0c6d08c3be66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RV2")
+			(value "Dual-gang 10 k log headphone volume panel header")
+			(fields
+				(field
+					(name "Function") "Headphone volume, dual-gang 10k log")
+				(field
+					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "POT_DUAL_HEADER")
+				(description "Dual-gang pot panel header")
+			)
+			(property
+				(name "Function")
+				(value "Headphone volume, dual-gang 10k log")
+			)
+			(property
+				(name "Wiring")
+				(value "top=input, wiper=output, bottom=GND_SIG")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "39eb8c26-8389-5bff-a723-00edb8c5bc23")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "SW1")
 			(value "DPST power switch panel header")
 			(fields
@@ -1803,7 +1839,7 @@
 		)
 		(comp
 			(ref "TVS1")
-			(value "SMBJ24A TVS")
+			(value "SMBJ20A TVS")
 			(fields
 				(field
 					(name "Footprint")
@@ -1828,9 +1864,6 @@
 				(name "Sheetfile")
 				(value "suboli_control.kicad_sch")
 			)
-			(property
-				(name "dnp")
-			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
@@ -1851,9 +1884,11 @@
 			)
 		)
 		(comp
-			(ref "U_vg")
+			(ref "U1")
 			(value "TLE2426 rail splitter")
 			(fields
+				(field
+					(name "Function") "Virtual ground rail splitter")
 				(field
 					(name "Footprint")
 				)
@@ -1868,6 +1903,10 @@
 				(lib "suboli_control")
 				(part "TLE2426_3PIN")
 				(description "TLE2426 rail splitter")
+			)
+			(property
+				(name "Function")
+				(value "Virtual ground rail splitter")
 			)
 			(property
 				(name "Sheetname")
@@ -2637,7 +2676,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U_vg")
+				(ref "U1")
 				(pin "1")
 				(pinfunction "IN_1")
 				(pintype "passive")
@@ -2648,7 +2687,7 @@
 			(name "/+19V_RAW")
 			(class "Default")
 			(node
-				(ref "J_DC")
+				(ref "J1")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -2820,7 +2859,7 @@
 			(name "/GND_RAW")
 			(class "Default")
 			(node
-				(ref "J_DC")
+				(ref "J1")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "passive")
@@ -2873,13 +2912,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_HP")
+				(ref "J2")
 				(pin "3")
 				(pinfunction "Sleeve_3")
 				(pintype "passive")
 			)
 			(node
-				(ref "J_IN")
+				(ref "J4")
 				(pin "3")
 				(pinfunction "Sleeve_3")
 				(pintype "passive")
@@ -2891,31 +2930,31 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P_HP")
+				(ref "RV1")
 				(pin "3")
 				(pinfunction "L_BOTTOM_3")
 				(pintype "passive")
 			)
 			(node
-				(ref "P_HP")
+				(ref "RV1")
 				(pin "6")
 				(pinfunction "R_BOTTOM_6")
 				(pintype "passive")
 			)
 			(node
-				(ref "P_TACT")
+				(ref "RV2")
 				(pin "3")
 				(pinfunction "L_BOTTOM_3")
 				(pintype "passive")
 			)
 			(node
-				(ref "P_TACT")
+				(ref "RV2")
 				(pin "6")
 				(pinfunction "R_BOTTOM_6")
 				(pintype "passive")
 			)
 			(node
-				(ref "U_vg")
+				(ref "U1")
 				(pin "2")
 				(pinfunction "COM_2")
 				(pintype "passive")
@@ -2997,7 +3036,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P_HP")
+				(ref "RV2")
 				(pin "2")
 				(pinfunction "L_WIPER_2")
 				(pintype "passive")
@@ -3014,7 +3053,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P_HP")
+				(ref "RV2")
 				(pin "5")
 				(pinfunction "R_WIPER_5")
 				(pintype "passive")
@@ -3048,7 +3087,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_HP")
+				(ref "J4")
 				(pin "1")
 				(pinfunction "Tip_1")
 				(pintype "passive")
@@ -3065,7 +3104,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_HP")
+				(ref "J4")
 				(pin "2")
 				(pinfunction "Ring_2")
 				(pintype "passive")
@@ -3093,19 +3132,19 @@
 			(name "/IN_L")
 			(class "Default")
 			(node
-				(ref "J_IN")
+				(ref "J2")
 				(pin "1")
 				(pinfunction "Tip_1")
 				(pintype "passive")
 			)
 			(node
-				(ref "P_HP")
+				(ref "RV1")
 				(pin "1")
 				(pinfunction "L_TOP_1")
 				(pintype "passive")
 			)
 			(node
-				(ref "P_TACT")
+				(ref "RV2")
 				(pin "1")
 				(pinfunction "L_TOP_1")
 				(pintype "passive")
@@ -3116,19 +3155,19 @@
 			(name "/IN_R")
 			(class "Default")
 			(node
-				(ref "J_IN")
+				(ref "J2")
 				(pin "2")
 				(pinfunction "Ring_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "P_HP")
+				(ref "RV1")
 				(pin "4")
 				(pinfunction "R_TOP_4")
 				(pintype "passive")
 			)
 			(node
-				(ref "P_TACT")
+				(ref "RV2")
 				(pin "4")
 				(pinfunction "R_TOP_4")
 				(pintype "passive")
@@ -3145,7 +3184,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_SPK")
+				(ref "J3")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -3162,7 +3201,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_SPK")
+				(ref "J3")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "passive")
@@ -3179,7 +3218,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_SPK")
+				(ref "J3")
 				(pin "3")
 				(pinfunction "3_3")
 				(pintype "passive")
@@ -3196,7 +3235,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J_SPK")
+				(ref "J3")
 				(pin "4")
 				(pinfunction "4_4")
 				(pintype "passive")
@@ -3230,7 +3269,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P_TACT")
+				(ref "RV1")
 				(pin "2")
 				(pinfunction "L_WIPER_2")
 				(pintype "passive")
@@ -3247,7 +3286,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P_TACT")
+				(ref "RV1")
 				(pin "5")
 				(pinfunction "R_WIPER_5")
 				(pintype "passive")
@@ -3294,7 +3333,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U_vg")
+				(ref "U1")
 				(pin "3")
 				(pinfunction "OUT_3")
 				(pintype "passive")

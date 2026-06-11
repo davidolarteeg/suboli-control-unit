@@ -43,7 +43,7 @@ Result:
 - Warnings: 0
 - ERC messages: 0
 
-Note: `kicad-cli sch export netlist` prints an annotation warning because the requested references such as `J_DC`, `J_IN`, `J_HP`, `J_SPK`, `P_TACT`, `P_HP`, and `U_vg` are nonstandard KiCad annotation formats. The references were preserved exactly as requested.
+Note: the formerly nonstandard references were re-annotated to standard KiCad designators: `J1`, `J2`, `J3`, `J4`, `RV1`, `RV2`, and `U1`.
 
 Tooling note: after regeneration, MCP `get_erc_violations` appeared to return a stale pre-fix warning list. The KiCad CLI ERC report and exported netlist were used as the authoritative check for this phase.
 
@@ -51,27 +51,27 @@ Tooling note: after regeneration, MCP `get_erc_violations` appeared to return a 
 
 | Check | Result |
 |---|---|
-| `J_DC` center to `+19V_RAW` | PASS |
-| `J_DC` sleeve to `GND_RAW` | PASS |
+| `J1` center to `+19V_RAW` | PASS |
+| `J1` sleeve to `GND_RAW` | PASS |
 | `SW1` switches both raw positive and raw ground | PASS |
 | `F1` in `+19V` line before `D1` | PASS |
 | `D1` reverse-polarity Schottky from `+19V_F` to `+19V` | PASS |
 | `FB1` isolates `+19V_HP` from `+19V` | PASS |
-| `U_vg` creates `VGND` from `+19V_HP` / `GND_SIG` | PASS |
-| `J_IN` Tip/Ring/Sleeve = `IN_L`/`IN_R`/`GND_SIG` | PASS |
-| `P_TACT` creates `TACT_INL` and `TACT_INR` separately | PASS |
-| `P_HP` creates `HP_INL` and `HP_INR` separately | PASS |
+| `U1` creates `VGND` from `+19V_HP` / `GND_SIG` | PASS |
+| `J2` Tip/Ring/Sleeve = `IN_L`/`IN_R`/`GND_SIG` | PASS |
+| `RV1` creates `TACT_INL` and `TACT_INR` separately | PASS |
+| `RV2` creates `HP_INL` and `HP_INR` separately | PASS |
 | A1 tactile input is single-ended via `IN0B`/`IN1B` to `GND_SIG` | PASS |
-| `OUTL+` only A1.OUT0A to J_SPK pin 1+ | PASS |
-| `OUTL−` only A1.OUT0B to J_SPK pin 1− | PASS |
-| `OUTR+` only A1.OUT1A to J_SPK pin 2+ | PASS |
-| `OUTR−` only A1.OUT1B to J_SPK pin 2− | PASS |
+| `OUTL+` only A1.OUT0A to J3 pin 1+ | PASS |
+| `OUTL−` only A1.OUT0B to J3 pin 1− | PASS |
+| `OUTR+` only A1.OUT1A to J3 pin 2+ | PASS |
+| `OUTR−` only A1.OUT1B to J3 pin 2− | PASS |
 | `OUTL−` and `OUTR−` are not tied together | PASS |
 | Tactile output remains stereo 2xBTL | PASS |
 | No tactile output LC/low-pass filter exists | PASS |
 | A2 headphone input is AC-coupled via C9/C10 and biased to `VGND` | PASS |
 | A2 output is series-isolated and AC-coupled via R8/C11 and R9/C12 | PASS |
-| `J_HP` sleeve connects to `GND_SIG` | PASS |
+| `J4` sleeve connects to `GND_SIG` | PASS |
 | `GND_SIG` meets `GND_STAR` only through `NT1` | PASS |
 
 ## Intentional Open Item
