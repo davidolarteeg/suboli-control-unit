@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ARCHIVED — stale since commit 166da31. The .kicad_sch is the sole source of truth.
 from __future__ import annotations
 
 import json

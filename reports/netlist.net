@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/davidolarte/Documents/SUBOLI Build/suboli-control-unit/kicad/suboli_control.kicad_sch")
-		(date "2026-06-11T19:57:40")
+		(date "2026-06-11T22:33:48")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "PROJECT_NAME") "SUBOLI Control Unit")
@@ -138,10 +138,14 @@
 		(comp
 			(ref "A2")
 			(value "OPA1622 dual op-amp on DIP-8 adapter")
+			(footprint "Package_DIP:DIP-8_W7.62mm_Socket")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.231.43")
+				(field
+					(name "Footprint") "Package_DIP:DIP-8_W7.62mm_Socket")
 				(field
 					(name "Datasheet")
 				)
@@ -153,6 +157,14 @@
 				(lib "suboli_control")
 				(part "A2_OPA1622_DIP8")
 				(description "OPA1622 dual op-amp DIP-8 adapter")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.231.43")
 			)
 			(property
 				(name "Sheetname")
@@ -202,10 +214,14 @@
 		(comp
 			(ref "C1")
 			(value "1000 uF / 35 V bulk")
+			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.432.81")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -217,6 +233,14 @@
 				(lib "suboli_control")
 				(part "CP_2PIN")
 				(description "Polarized capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.432.81")
 			)
 			(property
 				(name "Sheetname")
@@ -248,10 +272,14 @@
 		(comp
 			(ref "C2")
 			(value "100 nF main bypass")
+			(footprint "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.448.15")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -263,6 +291,14 @@
 				(lib "suboli_control")
 				(part "C_2PIN")
 				(description "Capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.448.15")
 			)
 			(property
 				(name "Sheetname")
@@ -294,10 +330,14 @@
 		(comp
 			(ref "C3")
 			(value "1000 uF / 25 V HP branch bulk")
+			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.310.10")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -309,6 +349,14 @@
 				(lib "suboli_control")
 				(part "CP_2PIN")
 				(description "Polarized capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.310.10")
 			)
 			(property
 				(name "Sheetname")
@@ -340,10 +388,14 @@
 		(comp
 			(ref "C4")
 			(value "100 nF HP branch bypass")
+			(footprint "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.448.15")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -355,6 +407,14 @@
 				(lib "suboli_control")
 				(part "C_2PIN")
 				(description "Capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.448.15")
 			)
 			(property
 				(name "Sheetname")
@@ -386,10 +446,14 @@
 		(comp
 			(ref "C5")
 			(value "10 uF A2 V+ bulk decouple")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.004.04")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -401,6 +465,14 @@
 				(lib "suboli_control")
 				(part "CP_2PIN")
 				(description "Polarized capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.004.04")
 			)
 			(property
 				(name "Sheetname")
@@ -432,10 +504,14 @@
 		(comp
 			(ref "C6")
 			(value "10 uF VGND decouple")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.004.04")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -447,6 +523,14 @@
 				(lib "suboli_control")
 				(part "CP_2PIN")
 				(description "Polarized capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.004.04")
 			)
 			(property
 				(name "Sheetname")
@@ -478,10 +562,14 @@
 		(comp
 			(ref "C7")
 			(value "100 nF A2 V+ bypass")
+			(footprint "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.448.15")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -493,6 +581,14 @@
 				(lib "suboli_control")
 				(part "C_2PIN")
 				(description "Capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.448.15")
 			)
 			(property
 				(name "Sheetname")
@@ -524,10 +620,14 @@
 		(comp
 			(ref "C8")
 			(value "100 nF VGND bypass")
+			(footprint "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.448.15")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -539,6 +639,14 @@
 				(lib "suboli_control")
 				(part "C_2PIN")
 				(description "Capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.448.15")
 			)
 			(property
 				(name "Sheetname")
@@ -570,10 +678,14 @@
 		(comp
 			(ref "C9")
 			(value "1 uF film L input coupling")
+			(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.008.95")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -585,6 +697,14 @@
 				(lib "suboli_control")
 				(part "C_2PIN")
 				(description "Capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.008.95")
 			)
 			(property
 				(name "Sheetname")
@@ -616,10 +736,14 @@
 		(comp
 			(ref "C10")
 			(value "1 uF film R input coupling")
+			(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.008.95")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -631,6 +755,14 @@
 				(lib "suboli_control")
 				(part "C_2PIN")
 				(description "Capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.008.95")
 			)
 			(property
 				(name "Sheetname")
@@ -662,10 +794,14 @@
 		(comp
 			(ref "C11")
 			(value "470uF/25V L output coupling")
+			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.285.01")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -677,6 +813,14 @@
 				(lib "suboli_control")
 				(part "CP_2PIN")
 				(description "Polarized capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.285.01")
 			)
 			(property
 				(name "Sheetname")
@@ -708,10 +852,14 @@
 		(comp
 			(ref "C12")
 			(value "470uF/25V R output coupling")
+			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.285.01")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
 					(name "Datasheet")
 				)
@@ -723,6 +871,14 @@
 				(lib "suboli_control")
 				(part "CP_2PIN")
 				(description "Polarized capacitor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.285.01")
 			)
 			(property
 				(name "Sheetname")
@@ -754,10 +910,14 @@
 		(comp
 			(ref "D1")
 			(value "SB560 Schottky reverse-polarity diode")
+			(footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.492.21")
+				(field
+					(name "Footprint") "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -769,6 +929,14 @@
 				(lib "suboli_control")
 				(part "D_2PIN")
 				(description "Diode")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.492.21")
 			)
 			(property
 				(name "Sheetname")
@@ -800,10 +968,14 @@
 		(comp
 			(ref "F1")
 			(value "PPTC fuse ~3 A")
+			(footprint "suboli_control:PPTC_LP30-300_P7.60mm")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.238.56")
+				(field
+					(name "Footprint") "suboli_control:PPTC_LP30-300_P7.60mm")
 				(field
 					(name "Datasheet")
 				)
@@ -815,6 +987,14 @@
 				(lib "suboli_control")
 				(part "FUSE_2PIN")
 				(description "Fuse/PPTC")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.238.56")
 			)
 			(property
 				(name "Sheetname")
@@ -846,10 +1026,14 @@
 		(comp
 			(ref "FB1")
 			(value "Ferrite bead >=1 A")
+			(footprint "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.358.61")
+				(field
+					(name "Footprint") "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -861,6 +1045,14 @@
 				(lib "suboli_control")
 				(part "FERRITE_2PIN")
 				(description "Ferrite bead")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.358.61")
 			)
 			(property
 				(name "Sheetname")
@@ -892,14 +1084,18 @@
 		(comp
 			(ref "J1")
 			(value "DC barrel jack panel header 5.5x2.5")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.425.38")
 				(field
 					(name "Function") "DC barrel jack 5.5x2.5")
 				(field
 					(name "Pinout") "1=center, 2=sleeve")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -911,6 +1107,14 @@
 				(lib "suboli_control")
 				(part "CONN_2")
 				(description "2-pin panel header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.425.38")
 			)
 			(property
 				(name "Function")
@@ -950,14 +1154,18 @@
 		(comp
 			(ref "J2")
 			(value "3.5 mm TRS input panel header")
+			(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.415.50")
 				(field
 					(name "Function") "3.5 mm TRS input jack")
 				(field
 					(name "Pinout") "Tip=IN_L, Ring=IN_R, Sleeve=GND_SIG")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -969,6 +1177,14 @@
 				(lib "suboli_control")
 				(part "CONN_3_TRS")
 				(description "TRS panel header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.415.50")
 			)
 			(property
 				(name "Function")
@@ -1011,14 +1227,18 @@
 		(comp
 			(ref "J3")
 			(value "4-pole Speakon/XLR panel header")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.425.40")
 				(field
 					(name "Function") "4-pole Speakon/XLR tactile output")
 				(field
 					(name "Pinout") "1+=OUTL+, 1-=OUTL−, 2+=OUTR+, 2-=OUTR−")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1030,6 +1250,14 @@
 				(lib "suboli_control")
 				(part "CONN_4")
 				(description "4-pin panel header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.425.40")
 			)
 			(property
 				(name "Function")
@@ -1075,14 +1303,18 @@
 		(comp
 			(ref "J4")
 			(value "3.5 mm TRS headphone panel header")
+			(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.415.50")
 				(field
 					(name "Function") "3.5 mm TRS headphone output jack")
 				(field
 					(name "Pinout") "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1094,6 +1326,14 @@
 				(lib "suboli_control")
 				(part "CONN_3_TRS")
 				(description "TRS panel header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.415.50")
 			)
 			(property
 				(name "Function")
@@ -1136,10 +1376,15 @@
 		(comp
 			(ref "LED1")
 			(value "Power LED")
+			(footprint "LED_THT:LED_D5.0mm")
 			(fields
 				(field
-					(name "Footprint")
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN")
 				)
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1151,6 +1396,14 @@
 				(lib "suboli_control")
 				(part "LED_2PIN")
 				(description "LED")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1182,12 +1435,16 @@
 		(comp
 			(ref "LED2")
 			(value "LL-504WC2EW61ED warm white 5mm")
+			(footprint "LED_THT:LED_D5.0mm")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.392.63")
 				(field
 					(name "Function") "Interior glow")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LED_THT:LED_D5.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1199,6 +1456,14 @@
 				(lib "suboli_control")
 				(part "LED_2PIN")
 				(description "LED")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.392.63")
 			)
 			(property
 				(name "Function")
@@ -1234,12 +1499,16 @@
 		(comp
 			(ref "LED3")
 			(value "LL-504WC2EW61ED warm white 5mm")
+			(footprint "LED_THT:LED_D5.0mm")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.392.63")
 				(field
 					(name "Function") "Interior glow")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LED_THT:LED_D5.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1251,6 +1520,14 @@
 				(lib "suboli_control")
 				(part "LED_2PIN")
 				(description "LED")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.392.63")
 			)
 			(property
 				(name "Function")
@@ -1286,12 +1563,17 @@
 		(comp
 			(ref "NT1")
 			(value "Only GND_SIG to GND_STAR connection")
+			(footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN")
+				)
 				(field
 					(name "Purpose") "single physical star point")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "NetTie:NetTie-2_SMD_Pad0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1303,6 +1585,14 @@
 				(lib "suboli_control")
 				(part "NET_TIE_2")
 				(description "Single star ground net tie")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "")
 			)
 			(property
 				(name "Purpose")
@@ -1338,10 +1628,14 @@
 		(comp
 			(ref "R1")
 			(value "8.2 k LED resistor")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.39")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1353,6 +1647,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.39")
 			)
 			(property
 				(name "Sheetname")
@@ -1384,10 +1686,14 @@
 		(comp
 			(ref "R2")
 			(value "100k L input bias to VGND")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.64")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1399,6 +1705,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.64")
 			)
 			(property
 				(name "Sheetname")
@@ -1430,10 +1744,14 @@
 		(comp
 			(ref "R3")
 			(value "100k R input bias to VGND")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.64")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1445,6 +1763,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.64")
 			)
 			(property
 				(name "Sheetname")
@@ -1476,10 +1802,14 @@
 		(comp
 			(ref "R4")
 			(value "10 k L feedback")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.41")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1491,6 +1821,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.41")
 			)
 			(property
 				(name "Sheetname")
@@ -1522,10 +1860,14 @@
 		(comp
 			(ref "R5")
 			(value "10 k L gain to VGND")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.41")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1537,6 +1879,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.41")
 			)
 			(property
 				(name "Sheetname")
@@ -1568,10 +1918,14 @@
 		(comp
 			(ref "R6")
 			(value "10 k R feedback")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.41")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1583,6 +1937,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.41")
 			)
 			(property
 				(name "Sheetname")
@@ -1614,10 +1976,14 @@
 		(comp
 			(ref "R7")
 			(value "10 k R gain to VGND")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.41")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1629,6 +1995,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.41")
 			)
 			(property
 				(name "Sheetname")
@@ -1660,10 +2034,14 @@
 		(comp
 			(ref "R8")
 			(value "10 ohm L output series")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.204.73")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1675,6 +2053,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.204.73")
 			)
 			(property
 				(name "Sheetname")
@@ -1706,10 +2092,14 @@
 		(comp
 			(ref "R9")
 			(value "10 ohm R output series")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.204.73")
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1721,6 +2111,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.204.73")
 			)
 			(property
 				(name "Sheetname")
@@ -1752,12 +2150,16 @@
 		(comp
 			(ref "R10")
 			(value "1.2k")
+			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.205.19")
 				(field
 					(name "Function") "Glow current limit")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1769,6 +2171,14 @@
 				(lib "suboli_control")
 				(part "R_2PIN")
 				(description "Resistor")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.205.19")
 			)
 			(property
 				(name "Function")
@@ -1804,14 +2214,19 @@
 		(comp
 			(ref "RV1")
 			(value "Dual-gang 10 k log tactile volume panel header")
+			(footprint "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN")
+				)
 				(field
 					(name "Function") "Tactile volume, dual-gang 10k log")
 				(field
 					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1823,6 +2238,14 @@
 				(lib "suboli_control")
 				(part "POT_DUAL_HEADER")
 				(description "Dual-gang pot panel header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1874,14 +2297,19 @@
 		(comp
 			(ref "RV2")
 			(value "Dual-gang 10 k log headphone volume panel header")
+			(footprint "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN")
+				)
 				(field
 					(name "Function") "Headphone volume, dual-gang 10k log")
 				(field
 					(name "Wiring") "top=input, wiper=output, bottom=GND_SIG")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1893,6 +2321,14 @@
 				(lib "suboli_control")
 				(part "POT_DUAL_HEADER")
 				(description "Dual-gang pot panel header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1943,15 +2379,20 @@
 		)
 		(comp
 			(ref "RV3")
-			(value "10k trimmer")
+			(value "3296W-10K")
+			(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN")
+				)
 				(field
 					(name "Function") "Glow brightness set")
 				(field
 					(name "Wiring") "rheostat: pin 1 in, wiper pin 2 tied to pin 3 out")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1963,6 +2404,14 @@
 				(lib "suboli_control")
 				(part "POT_3PIN")
 				(description "Trimmer potentiometer")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -2005,10 +2454,14 @@
 		(comp
 			(ref "SW1")
 			(value "DPST power switch panel header")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.425.40")
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -2020,6 +2473,14 @@
 				(lib "suboli_control")
 				(part "SW_DPST_HEADER")
 				(description "DPST panel switch header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.425.40")
 			)
 			(property
 				(name "Sheetname")
@@ -2056,11 +2517,16 @@
 		)
 		(comp
 			(ref "TVS1")
-			(value "SMBJ20A TVS")
+			(value "P6KE24A")
+			(footprint "Diode_THT:D_DO-15_P10.16mm_Horizontal")
 			(fields
 				(field
-					(name "Footprint")
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN")
 				)
+				(field
+					(name "Footprint") "Diode_THT:D_DO-15_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -2072,6 +2538,14 @@
 				(lib "suboli_control")
 				(part "D_2PIN")
 				(description "Diode")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -2102,13 +2576,18 @@
 		)
 		(comp
 			(ref "U1")
-			(value "TLE2426 rail splitter")
+			(value "TLE2426ILP")
+			(footprint "Package_TO_SOT_THT:TO-92_Inline")
 			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN")
+				)
 				(field
 					(name "Function") "Virtual ground rail splitter")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Package_TO_SOT_THT:TO-92_Inline")
 				(field
 					(name "Datasheet")
 				)
@@ -2120,6 +2599,14 @@
 				(lib "suboli_control")
 				(part "TLE2426_3PIN")
 				(description "TLE2426 rail splitter")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "")
 			)
 			(property
 				(name "Function")
