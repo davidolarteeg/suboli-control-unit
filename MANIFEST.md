@@ -5,7 +5,7 @@
 | Item | Value |
 |---|---|
 | KiCad version used | 10.0.3 |
-| Export date/time | 2026-06-11T20:46:55Z |
+| Export date/time | 2026-06-11T21:48:03Z |
 | Git commit hash of upload | See Git history / final review-package status. A commit cannot contain its own hash because the hash is computed from the committed file contents. |
 | Source project | `suboli_control` |
 | Packaging scope | KiCad project plus generated ERC, netlist, BOM, and schematic renders |
@@ -49,16 +49,17 @@ Skipped because no PCB layout exists:
 
 | Sheet | Description |
 |---|---|
-| `/` | One-sheet SUBOLI carrier/motherboard schematic: power/protection, MA12070 module socket, OPA1622 headphone stage, panel header interfaces, interior glow, star-ground net tie, and notes. |
+| `/` | One-sheet SUBOLI carrier/motherboard schematic: power/protection, off-board MA12070 module power/signal interfaces, OPA1622 headphone stage, panel header interfaces, interior glow, star-ground net tie, and notes. |
+
+MA12070 module is off-board, stacked on standoffs; speaker outputs wire module→Speakon directly; J5/J6 are the only board↔module interfaces. Deferred-footprint list is now EMPTY.
 
 ## Component / Footprint Table
 
 | Reference(s) | Footprint | Verification |
 |---|---|---|
-| A1 |  | Deferred; footprint intentionally empty |
-| J1 | `Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal` | Found |
-| J3, SW1 | `Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal` | Found |
-| J2, J4 | `Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical` | Found |
+| J1, J5 | `Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal` | Found |
+| SW1 | `Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal` | Found |
+| J2, J4, J6 | `Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical` | Found |
 | RV1, RV2 | `Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical` | Found |
 | A2 | `Package_DIP:DIP-8_W7.62mm_Socket` | Found |
 | U1 | `Package_TO_SOT_THT:TO-92_Inline` | Found |
@@ -108,7 +109,7 @@ No ERC warnings or errors reported.
 Verbatim ERC report excerpt:
 
 ```text
-ERC report (2026-06-11T22:46:35, Encoding UTF8)
+ERC report (2026-06-11T23:47:39, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -128,10 +129,9 @@ Report includes: Errors, Warnings, Exclusions
 | PCB layout | Not present. `kicad/suboli_control.kicad_pcb` is a schematic-phase placeholder with 0 footprints, 0 pads, 0 tracks, 0 vias, and 0 copper zones. |
 | DRC report | Skipped because no PCB layout exists. |
 | 3D render | Skipped because no PCB layout exists. |
-| Footprints | Assigned for all BOM references except A1, which remains deferred/empty. |
+| Footprints | Assigned for all BOM references. Deferred-footprint list is EMPTY. |
 | Stock footprint validation | All assigned stock footprint names were found in installed KiCad libraries after the R3.1 footprint-name corrections. |
-| MA12070 module footprint | Deferred. A1 is a module/socket symbol only; no footprint was improvised. |
-| A1 EN/MUTE | Left no-connect pending exact MA12070 module pad map/control behavior. |
+| MA12070 module | Off-board, stacked on standoffs; speaker outputs wire module→Speakon directly; J5/J6 are the only board↔module interfaces. |
 | TVS1 | Value updated to `P6KE24A`; Supplier_PN remains pending. |
 | Interior glow | Added. glow circuit is power-rail driven, switched by SW1. |
 | Generator script | ARCHIVED — stale since commit 166da31. The .kicad_sch is the sole source of truth. |
@@ -141,10 +141,10 @@ Report includes: Errors, Warnings, Exclusions
 
 | Checkpoint | Status | Evidence |
 |---|---|---|
-| 1. MA12070 module footprint deferred, not improvised | DONE | `A1` has an empty `Footprint` field; schematic note states EN/MUTE and module pad map are pending. |
+| 1. MA12070 module moved off-board | DONE | `A1`, `J3`, and `OUTL+`/`OUTL−`/`OUTR+`/`OUTR−` are removed; `J5` feeds `+19V`/`GND_STAR` and `J6` feeds `TACT_INL`/`GND_SIG`/`TACT_INR`. |
 | 2. PWR_FLAG symbols present on power nets | DONE | `#FLG1` `+19V_RAW`, `#FLG2` `+19V`, `#FLG3` `GND_STAR`, `#FLG4` `+19V_HP`, `#FLG5` `GND_SIG`, `#FLG6` `VGND`. |
 | 3. ERC warnings reported, not suppressed | DONE | ERC was exported with `--severity-all`; report shows `0 Errors 0 Warnings` and includes exclusions. |
 | 4. OPA1622 stage component values match confirmed design | DONE | Actual values: `R4`/`R5` = 10 k left gain network; `R6`/`R7` = 10 k right gain network; `R2`/`R3` = 100k input bias to `VGND`; `U1` = TLE2426ILP, no resistor divider; `C5`/`C7` decouple `+19V_HP` to `GND_STAR`; `C6`/`C8` decouple `VGND` to `GND_SIG`; A2 output coupling `C11`/`C12` = 470uF/25V; output series `R8`/`R9` = 10 ohm. |
 | 5. Footprint assignments verified against installed libraries | DONE | All assigned stock footprints were found in the installed KiCad libraries; the custom F1 footprint remains in the project-local `suboli_control` library. |
-| 6. Supplier fields exported in BOM | DONE | `reports/bom.csv` includes `Supplier` and `Supplier_PN` columns; A1 remains blank. |
+| 6. Supplier fields exported in BOM | DONE | `reports/bom.csv` includes `Supplier` and `Supplier_PN` columns; J5/J6 carry the requested HESTORE order codes. |
 | 7. Generator script archived | DONE | `kicad/tools/generate_suboli_schematic_ARCHIVED.py` carries the archive header and the old generator path was removed. |

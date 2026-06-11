@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/davidolarte/Documents/SUBOLI Build/suboli-control-unit/kicad/suboli_control.kicad_sch")
-		(date "2026-06-11T22:46:37")
+		(date "2026-06-11T23:47:42")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "PROJECT_NAME") "SUBOLI Control Unit")
@@ -56,85 +56,6 @@
 		)
 	)
 	(components
-		(comp
-			(ref "A1")
-			(value "MA12070 stereo Class-D module socket, 2xBTL")
-			(fields
-				(field
-					(name "Pending") "EN/MUTE left NC until module pad map/behavior is supplied")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "suboli_control")
-				(part "A1_MA12070_MODULE")
-				(description "MA12070 stereo module socket")
-			)
-			(property
-				(name "Pending")
-				(value "EN/MUTE left NC until module pad map/behavior is supplied")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "suboli_control.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "57245602-da97-53e1-92f3-7ab24c50190e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "11")
-						)
-						(pin
-							(num "10")
-						)
-						(pin
-							(num "9")
-						)
-						(pin
-							(num "8")
-						)
-						(pin
-							(num "7")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
 		(comp
 			(ref "A2")
 			(value "OPA1622 dual op-amp on DIP-8 adapter")
@@ -1225,82 +1146,6 @@
 			)
 		)
 		(comp
-			(ref "J3")
-			(value "4-pole Speakon/XLR panel header")
-			(footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
-			(fields
-				(field
-					(name "Supplier") "HESTORE")
-				(field
-					(name "Supplier_PN") "100.425.40")
-				(field
-					(name "Function") "4-pole Speakon/XLR tactile output")
-				(field
-					(name "Pinout") "1+=OUTL+, 1-=OUTL−, 2+=OUTR+, 2-=OUTR−")
-				(field
-					(name "Footprint") "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "suboli_control")
-				(part "CONN_4")
-				(description "4-pin panel header")
-			)
-			(property
-				(name "Supplier")
-				(value "HESTORE")
-			)
-			(property
-				(name "Supplier_PN")
-				(value "100.425.40")
-			)
-			(property
-				(name "Function")
-				(value "4-pole Speakon/XLR tactile output")
-			)
-			(property
-				(name "Pinout")
-				(value "1+=OUTL+, 1-=OUTL−, 2+=OUTR+, 2-=OUTR−")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "suboli_control.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0052bc4a-a162-5863-b9c8-c85c062d2be5")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "J4")
 			(value "3.5 mm TRS headphone panel header")
 			(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
@@ -1356,6 +1201,149 @@
 				(tstamps "/")
 			)
 			(tstamps "77e559ff-1171-5973-a8c6-3ebfcf14afb3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "MA12070 module power")
+			(footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
+			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.425.38")
+				(field
+					(name "Function") "Stacked module PVDD feed")
+				(field
+					(name "Pinout") "1=+19V, 2=GND_STAR")
+				(field
+					(name "Footprint") "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CONN_2")
+				(description "2-pin panel header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.425.38")
+			)
+			(property
+				(name "Function")
+				(value "Stacked module PVDD feed")
+			)
+			(property
+				(name "Pinout")
+				(value "1=+19V, 2=GND_STAR")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12fbc2d6-23ba-5c8c-b205-b29cddc7fafc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "MA12070 module audio in")
+			(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
+			(fields
+				(field
+					(name "Supplier") "HESTORE")
+				(field
+					(name "Supplier_PN") "100.415.50")
+				(field
+					(name "Function") "Stacked module signal feed")
+				(field
+					(name "Pinout") "1=TACT_INL, 2=GND_SIG, 3=TACT_INR")
+				(field
+					(name "Footprint") "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "CONN_3")
+				(description "3-pin header")
+			)
+			(property
+				(name "Supplier")
+				(value "HESTORE")
+			)
+			(property
+				(name "Supplier_PN")
+				(value "100.415.50")
+			)
+			(property
+				(name "Function")
+				(value "Stacked module signal feed")
+			)
+			(property
+				(name "Pinout")
+				(value "1=TACT_INL, 2=GND_SIG, 3=TACT_INR")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7f3f21a5-e6d7-584e-9995-301c12851c58")
 			(units
 				(unit
 					(name "A")
@@ -2648,82 +2636,6 @@
 	(libparts
 		(libpart
 			(lib "suboli_control")
-			(part "A1_MA12070_MODULE")
-			(description "MA12070 stereo module socket")
-			(fields
-				(field
-					(name "Reference") "A")
-				(field
-					(name "Value") "MA12070 stereo module socket")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "MA12070 stereo module socket")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "PVDD")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "GND")
-					(type "passive")
-				)
-				(pin
-					(num "3")
-					(name "IN0A")
-					(type "passive")
-				)
-				(pin
-					(num "4")
-					(name "IN0B")
-					(type "passive")
-				)
-				(pin
-					(num "5")
-					(name "IN1A")
-					(type "passive")
-				)
-				(pin
-					(num "6")
-					(name "IN1B")
-					(type "passive")
-				)
-				(pin
-					(num "7")
-					(name "OUT0A")
-					(type "passive")
-				)
-				(pin
-					(num "8")
-					(name "OUT0B")
-					(type "passive")
-				)
-				(pin
-					(num "9")
-					(name "OUT1A")
-					(type "passive")
-				)
-				(pin
-					(num "10")
-					(name "OUT1B")
-					(type "passive")
-				)
-				(pin
-					(num "11")
-					(name "EN/MUTE")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "suboli_control")
 			(part "A2_OPA1622_DIP8")
 			(description "OPA1622 dual op-amp DIP-8 adapter")
 			(fields
@@ -2816,6 +2728,42 @@
 		)
 		(libpart
 			(lib "suboli_control")
+			(part "CONN_3")
+			(description "3-pin header")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "3-pin header")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3-pin header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
 			(part "CONN_3_TRS")
 			(description "TRS panel header")
 			(fields
@@ -2846,47 +2794,6 @@
 				(pin
 					(num "3")
 					(name "Sleeve")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "suboli_control")
-			(part "CONN_4")
-			(description "4-pin panel header")
-			(fields
-				(field
-					(name "Reference") "J")
-				(field
-					(name "Value") "4-pin panel header")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "4-pin panel header")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "passive")
-				)
-				(pin
-					(num "3")
-					(name "3")
-					(type "passive")
-				)
-				(pin
-					(num "4")
-					(name "4")
 					(type "passive")
 				)
 			)
@@ -3316,12 +3223,6 @@
 			(name "/+19V")
 			(class "Default")
 			(node
-				(ref "A1")
-				(pin "1")
-				(pinfunction "PVDD_1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C1")
 				(pin "1")
 				(pinfunction "+_1")
@@ -3341,6 +3242,12 @@
 			)
 			(node
 				(ref "FB1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -3679,18 +3586,6 @@
 			(name "/GND_SIG")
 			(class "Default")
 			(node
-				(ref "A1")
-				(pin "4")
-				(pinfunction "IN0B_4")
-				(pintype "passive")
-			)
-			(node
-				(ref "A1")
-				(pin "6")
-				(pinfunction "IN1B_6")
-				(pintype "passive")
-			)
-			(node
 				(ref "C3")
 				(pin "2")
 				(pinfunction "-_2")
@@ -3724,6 +3619,12 @@
 				(ref "J4")
 				(pin "3")
 				(pinfunction "Sleeve_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "2_2")
 				(pintype "passive")
 			)
 			(node
@@ -3768,12 +3669,6 @@
 			(name "/GND_STAR")
 			(class "Default")
 			(node
-				(ref "A1")
-				(pin "2")
-				(pinfunction "GND_2")
-				(pintype "passive")
-			)
-			(node
 				(ref "A2")
 				(pin "4")
 				(pinfunction "V-_4")
@@ -3799,6 +3694,12 @@
 			)
 			(node
 				(ref "C7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "passive")
@@ -3984,74 +3885,6 @@
 		)
 		(net
 			(code "26")
-			(name "/OUTL+")
-			(class "Default")
-			(node
-				(ref "A1")
-				(pin "7")
-				(pinfunction "OUT0A_7")
-				(pintype "passive")
-			)
-			(node
-				(ref "J3")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "27")
-			(name "/OUTL−")
-			(class "Default")
-			(node
-				(ref "A1")
-				(pin "8")
-				(pinfunction "OUT0B_8")
-				(pintype "passive")
-			)
-			(node
-				(ref "J3")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "28")
-			(name "/OUTR+")
-			(class "Default")
-			(node
-				(ref "A1")
-				(pin "9")
-				(pinfunction "OUT1A_9")
-				(pintype "passive")
-			)
-			(node
-				(ref "J3")
-				(pin "3")
-				(pinfunction "3_3")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "29")
-			(name "/OUTR−")
-			(class "Default")
-			(node
-				(ref "A1")
-				(pin "10")
-				(pinfunction "OUT1B_10")
-				(pintype "passive")
-			)
-			(node
-				(ref "J3")
-				(pin "4")
-				(pinfunction "4_4")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "30")
 			(name "/PWR_LED_ANODE")
 			(class "Default")
 			(node
@@ -4068,13 +3901,13 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "27")
 			(name "/TACT_INL")
 			(class "Default")
 			(node
-				(ref "A1")
-				(pin "3")
-				(pinfunction "IN0A_3")
+				(ref "J6")
+				(pin "1")
+				(pinfunction "1_1")
 				(pintype "passive")
 			)
 			(node
@@ -4085,13 +3918,13 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "28")
 			(name "/TACT_INR")
 			(class "Default")
 			(node
-				(ref "A1")
-				(pin "5")
-				(pinfunction "IN1A_5")
+				(ref "J6")
+				(pin "3")
+				(pinfunction "3_3")
 				(pintype "passive")
 			)
 			(node
@@ -4102,7 +3935,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "29")
 			(name "/VGND")
 			(class "Default")
 			(node
@@ -4146,17 +3979,6 @@
 				(pin "3")
 				(pinfunction "OUT_3")
 				(pintype "passive")
-			)
-		)
-		(net
-			(code "34")
-			(name "unconnected-(A1-EN{slash}MUTE-Pad11)")
-			(class "Default")
-			(node
-				(ref "A1")
-				(pin "11")
-				(pinfunction "EN/MUTE_11")
-				(pintype "passive+no_connect")
 			)
 		)
 	)
