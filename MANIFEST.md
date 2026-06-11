@@ -5,7 +5,7 @@
 | Item | Value |
 |---|---|
 | KiCad version used | 10.0.3 |
-| Export date/time | 2026-06-11T20:34:07Z |
+| Export date/time | 2026-06-11T20:46:55Z |
 | Git commit hash of upload | See Git history / final review-package status. A commit cannot contain its own hash because the hash is computed from the committed file contents. |
 | Source project | `suboli_control` |
 | Packaging scope | KiCad project plus generated ERC, netlist, BOM, and schematic renders |
@@ -56,8 +56,8 @@ Skipped because no PCB layout exists:
 | Reference(s) | Footprint | Verification |
 |---|---|---|
 | A1 |  | Deferred; footprint intentionally empty |
-| J1 | `TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal` | Not found in installed stock libraries |
-| J3, SW1 | `TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal` | Not found in installed stock libraries |
+| J1 | `Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal` | Found |
+| J3, SW1 | `Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal` | Found |
 | J2, J4 | `Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical` | Found |
 | RV1, RV2 | `Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical` | Found |
 | A2 | `Package_DIP:DIP-8_W7.62mm_Socket` | Found |
@@ -65,7 +65,7 @@ Skipped because no PCB layout exists:
 | D1 | `Diode_THT:D_DO-201AD_P15.24mm_Horizontal` | Found |
 | TVS1 | `Diode_THT:D_DO-15_P10.16mm_Horizontal` | Found |
 | F1 | `suboli_control:PPTC_LP30-300_P7.60mm` | Project-local custom footprint |
-| FB1 | `Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal` | Not found in installed stock libraries |
+| FB1 | `Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC` | Found |
 | C1 | `Capacitor_THT:CP_Radial_D12.5mm_P5.00mm` | Found |
 | C3, C11, C12 | `Capacitor_THT:CP_Radial_D10.0mm_P5.00mm` | Found |
 | C5, C6 | `Capacitor_THT:CP_Radial_D5.0mm_P2.00mm` | Found |
@@ -97,38 +97,23 @@ Result:
 | Count | Value |
 |---|---:|
 | Errors | 0 |
-| Warnings | 4 |
+| Warnings | 0 |
 
 Verbatim warning/error list:
 
 ```text
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-[footprint_link_issues]: Footprint 'L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal' not found in library 'Inductor_THT'
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
+No ERC warnings or errors reported.
 ```
 
 Verbatim ERC report excerpt:
 
 ```text
-ERC report (2026-06-11T22:33:45, Encoding UTF8)
+ERC report (2026-06-11T22:46:35, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-    ; warning
-    @(27.94 mm, 33.02 mm): Symbol J1 [CONN_2]
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-    ; warning
-    @(68.58 mm, 35.56 mm): Symbol SW1 [SW_DPST_HEADER]
-[footprint_link_issues]: Footprint 'L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal' not found in library 'Inductor_THT'
-    ; warning
-    @(203.20 mm, 58.42 mm): Symbol FB1 [FERRITE_2PIN]
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-    ; warning
-    @(292.10 mm, 104.14 mm): Symbol J3 [CONN_4]
 
- ** ERC messages: 4  Errors 0  Warnings 4
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
@@ -144,7 +129,7 @@ Report includes: Errors, Warnings, Exclusions
 | DRC report | Skipped because no PCB layout exists. |
 | 3D render | Skipped because no PCB layout exists. |
 | Footprints | Assigned for all BOM references except A1, which remains deferred/empty. |
-| Stock footprint validation | Three requested stock footprint names were not found in installed KiCad libraries: `TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal`, `TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal`, `Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal`. No substitutions were made. |
+| Stock footprint validation | All assigned stock footprint names were found in installed KiCad libraries after the R3.1 footprint-name corrections. |
 | MA12070 module footprint | Deferred. A1 is a module/socket symbol only; no footprint was improvised. |
 | A1 EN/MUTE | Left no-connect pending exact MA12070 module pad map/control behavior. |
 | TVS1 | Value updated to `P6KE24A`; Supplier_PN remains pending. |
@@ -158,8 +143,8 @@ Report includes: Errors, Warnings, Exclusions
 |---|---|---|
 | 1. MA12070 module footprint deferred, not improvised | DONE | `A1` has an empty `Footprint` field; schematic note states EN/MUTE and module pad map are pending. |
 | 2. PWR_FLAG symbols present on power nets | DONE | `#FLG1` `+19V_RAW`, `#FLG2` `+19V`, `#FLG3` `GND_STAR`, `#FLG4` `+19V_HP`, `#FLG5` `GND_SIG`, `#FLG6` `VGND`. |
-| 3. ERC warnings reported, not suppressed | DONE | ERC was exported with `--severity-all`; report shows `0 Errors 4 Warnings` and includes exclusions. |
+| 3. ERC warnings reported, not suppressed | DONE | ERC was exported with `--severity-all`; report shows `0 Errors 0 Warnings` and includes exclusions. |
 | 4. OPA1622 stage component values match confirmed design | DONE | Actual values: `R4`/`R5` = 10 k left gain network; `R6`/`R7` = 10 k right gain network; `R2`/`R3` = 100k input bias to `VGND`; `U1` = TLE2426ILP, no resistor divider; `C5`/`C7` decouple `+19V_HP` to `GND_STAR`; `C6`/`C8` decouple `VGND` to `GND_SIG`; A2 output coupling `C11`/`C12` = 470uF/25V; output series `R8`/`R9` = 10 ohm. |
-| 5. Footprint assignments verified against installed libraries | DONE | All requested footprints were assigned as given; missing stock names are listed above and were not substituted. |
+| 5. Footprint assignments verified against installed libraries | DONE | All assigned stock footprints were found in the installed KiCad libraries; the custom F1 footprint remains in the project-local `suboli_control` library. |
 | 6. Supplier fields exported in BOM | DONE | `reports/bom.csv` includes `Supplier` and `Supplier_PN` columns; A1 remains blank. |
 | 7. Generator script archived | DONE | `kicad/tools/generate_suboli_schematic_ARCHIVED.py` carries the archive header and the old generator path was removed. |

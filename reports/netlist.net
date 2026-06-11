@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/davidolarte/Documents/SUBOLI Build/suboli-control-unit/kicad/suboli_control.kicad_sch")
-		(date "2026-06-11T22:33:48")
+		(date "2026-06-11T22:46:37")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "PROJECT_NAME") "SUBOLI Control Unit")
@@ -1026,14 +1026,14 @@
 		(comp
 			(ref "FB1")
 			(value "Ferrite bead >=1 A")
-			(footprint "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal")
+			(footprint "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC")
 			(fields
 				(field
 					(name "Supplier") "HESTORE")
 				(field
 					(name "Supplier_PN") "100.358.61")
 				(field
-					(name "Footprint") "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal")
+					(name "Footprint") "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC")
 				(field
 					(name "Datasheet")
 				)
@@ -1084,7 +1084,7 @@
 		(comp
 			(ref "J1")
 			(value "DC barrel jack panel header 5.5x2.5")
-			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal")
+			(footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
 			(fields
 				(field
 					(name "Supplier") "HESTORE")
@@ -1095,7 +1095,7 @@
 				(field
 					(name "Pinout") "1=center, 2=sleeve")
 				(field
-					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal")
+					(name "Footprint") "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1227,7 +1227,7 @@
 		(comp
 			(ref "J3")
 			(value "4-pole Speakon/XLR panel header")
-			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
+			(footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
 			(fields
 				(field
 					(name "Supplier") "HESTORE")
@@ -1238,7 +1238,7 @@
 				(field
 					(name "Pinout") "1+=OUTL+, 1-=OUTL−, 2+=OUTR+, 2-=OUTR−")
 				(field
-					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
+					(name "Footprint") "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -2454,14 +2454,14 @@
 		(comp
 			(ref "SW1")
 			(value "DPST power switch panel header")
-			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
+			(footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
 			(fields
 				(field
 					(name "Supplier") "HESTORE")
 				(field
 					(name "Supplier_PN") "100.425.40")
 				(field
-					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal")
+					(name "Footprint") "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)

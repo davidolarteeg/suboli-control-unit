@@ -1,21 +1,9 @@
-ERC report (2026-06-11T22:33:45, Encoding UTF8)
+ERC report (2026-06-11T22:46:35, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x02_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-    ; warning
-    @(27.94 mm, 33.02 mm): Symbol J1 [CONN_2]
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-    ; warning
-    @(68.58 mm, 35.56 mm): Symbol SW1 [SW_DPST_HEADER]
-[footprint_link_issues]: Footprint 'L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal' not found in library 'Inductor_THT'
-    ; warning
-    @(203.20 mm, 58.42 mm): Symbol FB1 [FERRITE_2PIN]
-[footprint_link_issues]: Footprint 'TerminalBlock_Phoenix_MSTBA-2,5_1x04_P5.08mm_Horizontal' not found in library 'TerminalBlock_Phoenix'
-    ; warning
-    @(292.10 mm, 104.14 mm): Symbol J3 [CONN_4]
 
- ** ERC messages: 4  Errors 0  Warnings 4
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
