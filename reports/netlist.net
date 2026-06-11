@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/davidolarte/Documents/SUBOLI Build/suboli-control-unit/kicad/suboli_control.kicad_sch")
-		(date "2026-06-11T15:22:02")
+		(date "2026-06-11T19:57:40")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "PROJECT_NAME") "SUBOLI Control Unit")
@@ -1180,6 +1180,110 @@
 			)
 		)
 		(comp
+			(ref "LED2")
+			(value "LL-504WC2EW61ED warm white 5mm")
+			(fields
+				(field
+					(name "Function") "Interior glow")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "LED_2PIN")
+				(description "LED")
+			)
+			(property
+				(name "Function")
+				(value "Interior glow")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4b6a6a8f-0ea0-5df2-941c-49a60d79ec76")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3")
+			(value "LL-504WC2EW61ED warm white 5mm")
+			(fields
+				(field
+					(name "Function") "Interior glow")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "LED_2PIN")
+				(description "LED")
+			)
+			(property
+				(name "Function")
+				(value "Interior glow")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8eb7498d-35d4-5b97-a869-be8d0c08cae8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "NT1")
 			(value "Only GND_SIG to GND_STAR connection")
 			(fields
@@ -1646,6 +1750,58 @@
 			)
 		)
 		(comp
+			(ref "R10")
+			(value "1.2k")
+			(fields
+				(field
+					(name "Function") "Glow current limit")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "R_2PIN")
+				(description "Resistor")
+			)
+			(property
+				(name "Function")
+				(value "Glow current limit")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e053d967-52f0-509d-8338-b8dc51d89641")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "RV1")
 			(value "Dual-gang 10 k log tactile volume panel header")
 			(fields
@@ -1772,6 +1928,67 @@
 						(pin
 							(num "4")
 						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RV3")
+			(value "10k trimmer")
+			(fields
+				(field
+					(name "Function") "Glow brightness set")
+				(field
+					(name "Wiring") "rheostat: pin 1 in, wiper pin 2 tied to pin 3 out")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "suboli_control")
+				(part "POT_3PIN")
+				(description "Trimmer potentiometer")
+			)
+			(property
+				(name "Function")
+				(value "Glow brightness set")
+			)
+			(property
+				(name "Wiring")
+				(value "rheostat: pin 1 in, wiper pin 2 tied to pin 3 out")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "suboli_control.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "86d31dd2-bb4d-5702-b01b-8e67f2c38d12")
+			(units
+				(unit
+					(name "A")
+					(pins
 						(pin
 							(num "3")
 						)
@@ -2406,6 +2623,42 @@
 		)
 		(libpart
 			(lib "suboli_control")
+			(part "POT_3PIN")
+			(description "Trimmer potentiometer")
+			(fields
+				(field
+					(name "Reference") "RV")
+				(field
+					(name "Value") "Trimmer potentiometer")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Trimmer potentiometer")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "W")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "suboli_control")
 			(part "POT_DUAL_HEADER")
 			(description "Dual-gang pot panel header")
 			(fields
@@ -2607,6 +2860,12 @@
 			)
 			(node
 				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -2856,6 +3115,63 @@
 		)
 		(net
 			(code "12")
+			(name "/GLOW_A")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/GLOW_B")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV3")
+				(pin "2")
+				(pinfunction "W_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/GLOW_MID")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED3")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
 			(name "/GND_RAW")
 			(class "Default")
 			(node
@@ -2872,7 +3188,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "16")
 			(name "/GND_SIG")
 			(class "Default")
 			(node
@@ -2961,7 +3277,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "17")
 			(name "/GND_STAR")
 			(class "Default")
 			(node
@@ -3007,6 +3323,12 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "LED3")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "NT1")
 				(pin "2")
 				(pinfunction "GND_STAR_2")
@@ -3026,7 +3348,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "18")
 			(name "/HP_INL")
 			(class "Default")
 			(node
@@ -3043,7 +3365,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "19")
 			(name "/HP_INR")
 			(class "Default")
 			(node
@@ -3060,7 +3382,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "20")
 			(name "/HP_L_SER")
 			(class "Default")
 			(node
@@ -3077,7 +3399,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "21")
 			(name "/HP_OUT_L")
 			(class "Default")
 			(node
@@ -3094,7 +3416,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "22")
 			(name "/HP_OUT_R")
 			(class "Default")
 			(node
@@ -3111,7 +3433,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "23")
 			(name "/HP_R_SER")
 			(class "Default")
 			(node
@@ -3128,7 +3450,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "24")
 			(name "/IN_L")
 			(class "Default")
 			(node
@@ -3151,7 +3473,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "25")
 			(name "/IN_R")
 			(class "Default")
 			(node
@@ -3174,7 +3496,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "26")
 			(name "/OUTL+")
 			(class "Default")
 			(node
@@ -3191,7 +3513,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "27")
 			(name "/OUTL−")
 			(class "Default")
 			(node
@@ -3208,7 +3530,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "28")
 			(name "/OUTR+")
 			(class "Default")
 			(node
@@ -3225,7 +3547,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "29")
 			(name "/OUTR−")
 			(class "Default")
 			(node
@@ -3242,7 +3564,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "30")
 			(name "/PWR_LED_ANODE")
 			(class "Default")
 			(node
@@ -3259,7 +3581,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "31")
 			(name "/TACT_INL")
 			(class "Default")
 			(node
@@ -3276,7 +3598,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "32")
 			(name "/TACT_INR")
 			(class "Default")
 			(node
@@ -3293,7 +3615,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "33")
 			(name "/VGND")
 			(class "Default")
 			(node
@@ -3340,7 +3662,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "34")
 			(name "unconnected-(A1-EN{slash}MUTE-Pad11)")
 			(class "Default")
 			(node

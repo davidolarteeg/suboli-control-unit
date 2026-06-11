@@ -5,7 +5,7 @@
 | Item | Value |
 |---|---|
 | KiCad version used | 10.0.3 |
-| Export date/time | 2026-06-11T13:22:41Z |
+| Export date/time | 2026-06-11T17:58:05Z |
 | Git commit hash of upload | See Git history / final review-package status. A commit cannot contain its own hash because the hash is computed from the committed file contents. |
 | Source project | `suboli_control` |
 | Packaging scope | KiCad project plus generated ERC, netlist, BOM, and schematic renders |
@@ -45,7 +45,16 @@ Skipped because no PCB layout exists:
 
 | Sheet | Description |
 |---|---|
-| `/` | One-sheet SUBOLI carrier/motherboard schematic: power/protection, MA12070 module socket, OPA1622 headphone stage, panel header interfaces, star-ground net tie, and notes. |
+| `/` | One-sheet SUBOLI carrier/motherboard schematic: power/protection, MA12070 module socket, OPA1622 headphone stage, panel header interfaces, interior glow, star-ground net tie, and notes. |
+
+## Component Table
+
+| Reference | Value | Function | Footprint |
+|---|---|---|---|
+| R10 | 1.2k | Glow current limit |  |
+| RV3 | 10k trimmer | Glow brightness set |  |
+| LED2 | LL-504WC2EW61ED warm white 5mm | Interior glow |  |
+| LED3 | LL-504WC2EW61ED warm white 5mm | Interior glow |  |
 
 ## ERC Summary
 
@@ -71,7 +80,7 @@ No ERC warnings or errors reported.
 Verbatim ERC report excerpt:
 
 ```text
-ERC report (2026-06-11T15:22:14, Encoding UTF8)
+ERC report (2026-06-11T19:57:37, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -95,6 +104,7 @@ Report includes: Errors, Warnings, Exclusions
 | MA12070 module footprint | Deferred. A1 is a module/socket symbol only; no footprint was improvised. |
 | A1 EN/MUTE | Left no-connect pending exact MA12070 module pad map/control behavior. |
 | TVS1 | Populated as `SMBJ20A TVS`; DNP flag removed; topology unchanged. |
+| Interior glow | Added. glow circuit is power-rail driven, switched by SW1. |
 | GitHub upload | Uploaded by Git over SSH after the repository was created externally. |
 
 ## Checkpoints
