@@ -5,28 +5,17 @@
 | Item | Value |
 |---|---|
 | KiCad version used | 10.0.3 |
-| Export date/time | 2026-06-13T15:30:54Z |
+| Export date/time | 2026-06-13T15:33:26Z |
 | Git commit hash of upload | See Git history / final review-package status. A commit cannot contain its own hash because the hash is computed from the committed file contents. |
 | Source project | `suboli_control` |
 | Packaging scope | KiCad project plus generated ERC, netlist, BOM, and schematic renders |
 
 ARCHIVED — stale since commit 166da31. The .kicad_sch is the sole source of truth.
 
-design/ holds the locked SUBOLI PCB rules + manufacturing scripts — read before any layout or export work.
-
 ## File Tree
 
 ```text
 suboli-control-unit/
-├── design/
-│   ├── SUBOLI_DESIGN_RULES.md
-│   ├── design-spec.md
-│   ├── layout-rules.md
-│   ├── manufacturing.md
-│   ├── pcb-capability-report.md
-│   └── scripts/
-│       ├── export_manufacturing.sh
-│       └── preflight_layout.sh
 ├── MANIFEST.md
 ├── README.md
 ├── kicad/
@@ -161,5 +150,3 @@ Report includes: Errors, Warnings, Exclusions
 | 5. Footprint assignments verified against installed libraries | DONE | All assigned stock footprints were found in the installed KiCad libraries; the custom F1 footprint remains in the project-local `suboli_control` library. |
 | 6. Supplier fields exported in BOM | DONE | `reports/bom.csv` includes `Supplier` and `Supplier_PN` columns; J5/J6 carry the requested HESTORE order codes. |
 | 7. Generator script archived | DONE | `kicad/tools/generate_suboli_schematic_ARCHIVED.py` carries the archive header and the old generator path was removed. |
-| 8. PCB capability report committed | DONE | `design/pcb-capability-report.md` records KiCad MCP PCB mutation limits, Freerouting status, raw S-expression edit capability, and `gerbers`/`drill`/`pos` export availability. |
-| 9. Design rulebook committed | DONE | `design/` holds the locked SUBOLI PCB rules and manufacturing scripts. |
