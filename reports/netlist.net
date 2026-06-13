@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/davidolarte/Documents/SUBOLI Build/suboli-control-unit/kicad/suboli_control.kicad_sch")
-		(date "2026-06-11T23:47:42")
+		(date "2026-06-13T17:30:24")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "PROJECT_NAME") "SUBOLI Control Unit")
@@ -135,14 +135,20 @@
 		(comp
 			(ref "C1")
 			(value "1000 uF / 35 V bulk")
-			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+			(footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
 			(fields
 				(field
 					(name "Supplier") "HESTORE")
 				(field
 					(name "Supplier_PN") "100.432.81")
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -162,6 +168,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.432.81")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -200,6 +214,12 @@
 				(field
 					(name "Supplier_PN") "100.448.15")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -220,6 +240,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.448.15")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -258,6 +286,12 @@
 				(field
 					(name "Supplier_PN") "100.310.10")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -278,6 +312,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.310.10")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -316,6 +358,12 @@
 				(field
 					(name "Supplier_PN") "100.448.15")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -336,6 +384,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.448.15")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -374,6 +430,12 @@
 				(field
 					(name "Supplier_PN") "100.004.04")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
 				(field
 					(name "Datasheet")
@@ -394,6 +456,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.004.04")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -432,6 +502,12 @@
 				(field
 					(name "Supplier_PN") "100.004.04")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
 				(field
 					(name "Datasheet")
@@ -452,6 +528,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.004.04")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -490,6 +574,12 @@
 				(field
 					(name "Supplier_PN") "100.448.15")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -510,6 +600,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.448.15")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -548,6 +646,12 @@
 				(field
 					(name "Supplier_PN") "100.448.15")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -568,6 +672,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.448.15")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -606,6 +718,12 @@
 				(field
 					(name "Supplier_PN") "100.008.95")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -626,6 +744,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.008.95")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -664,6 +790,12 @@
 				(field
 					(name "Supplier_PN") "100.008.95")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -684,6 +816,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.008.95")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -722,6 +862,12 @@
 				(field
 					(name "Supplier_PN") "100.285.01")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -742,6 +888,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.285.01")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -780,6 +934,12 @@
 				(field
 					(name "Supplier_PN") "100.285.01")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
 				(field
 					(name "Datasheet")
@@ -800,6 +960,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.285.01")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -838,6 +1006,12 @@
 				(field
 					(name "Supplier_PN") "100.492.21")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -858,6 +1032,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.492.21")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -896,6 +1078,12 @@
 				(field
 					(name "Supplier_PN") "100.238.56")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "suboli_control:PPTC_LP30-300_P7.60mm")
 				(field
 					(name "Datasheet")
@@ -916,6 +1104,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.238.56")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -954,6 +1150,12 @@
 				(field
 					(name "Supplier_PN") "100.358.61")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC")
 				(field
 					(name "Datasheet")
@@ -974,6 +1176,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.358.61")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1012,6 +1222,12 @@
 				(field
 					(name "Supplier_PN") "100.425.38")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Function") "DC barrel jack 5.5x2.5")
 				(field
 					(name "Pinout") "1=center, 2=sleeve")
@@ -1036,6 +1252,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.425.38")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1082,6 +1306,12 @@
 				(field
 					(name "Supplier_PN") "100.415.50")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Function") "3.5 mm TRS input jack")
 				(field
 					(name "Pinout") "Tip=IN_L, Ring=IN_R, Sleeve=GND_SIG")
@@ -1106,6 +1336,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.415.50")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1155,6 +1393,12 @@
 				(field
 					(name "Supplier_PN") "100.415.50")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Function") "3.5 mm TRS headphone output jack")
 				(field
 					(name "Pinout") "Tip=HP_OUT_L, Ring=HP_OUT_R, Sleeve=GND_SIG")
@@ -1179,6 +1423,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.415.50")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1226,7 +1478,13 @@
 				(field
 					(name "Supplier") "HESTORE")
 				(field
-					(name "Supplier_PN") "100.425.38")
+					(name "Supplier_PN") "100.425.63")
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
 				(field
 					(name "Function") "Stacked module PVDD feed")
 				(field
@@ -1251,7 +1509,15 @@
 			)
 			(property
 				(name "Supplier_PN")
-				(value "100.425.38")
+				(value "100.425.63")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1298,6 +1564,12 @@
 				(field
 					(name "Supplier_PN") "100.415.50")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Function") "Stacked module signal feed")
 				(field
 					(name "Pinout") "1=TACT_INL, 2=GND_SIG, 3=TACT_INR")
@@ -1322,6 +1594,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.415.50")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1369,7 +1649,12 @@
 				(field
 					(name "Supplier") "HESTORE")
 				(field
-					(name "Supplier_PN")
+					(name "Supplier_PN") "100.201.14")
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
 				)
 				(field
 					(name "Footprint") "LED_THT:LED_D5.0mm")
@@ -1391,6 +1676,14 @@
 			)
 			(property
 				(name "Supplier_PN")
+				(value "100.201.14")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
 				(value "")
 			)
 			(property
@@ -1430,6 +1723,12 @@
 				(field
 					(name "Supplier_PN") "100.392.63")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Function") "Interior glow")
 				(field
 					(name "Footprint") "LED_THT:LED_D5.0mm")
@@ -1452,6 +1751,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.392.63")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1494,6 +1801,12 @@
 				(field
 					(name "Supplier_PN") "100.392.63")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Function") "Interior glow")
 				(field
 					(name "Footprint") "LED_THT:LED_D5.0mm")
@@ -1516,6 +1829,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.392.63")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -1559,6 +1880,12 @@
 					(name "Supplier_PN")
 				)
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Purpose") "single physical star point")
 				(field
 					(name "Footprint") "NetTie:NetTie-2_SMD_Pad0.5mm")
@@ -1580,6 +1907,14 @@
 			)
 			(property
 				(name "Supplier_PN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
 				(value "")
 			)
 			(property
@@ -1623,6 +1958,12 @@
 				(field
 					(name "Supplier_PN") "100.205.39")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1643,6 +1984,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.39")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1681,6 +2030,12 @@
 				(field
 					(name "Supplier_PN") "100.205.64")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1701,6 +2056,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.64")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1739,6 +2102,12 @@
 				(field
 					(name "Supplier_PN") "100.205.64")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1759,6 +2128,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.64")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1797,6 +2174,12 @@
 				(field
 					(name "Supplier_PN") "100.205.41")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1817,6 +2200,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.41")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1855,6 +2246,12 @@
 				(field
 					(name "Supplier_PN") "100.205.41")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1875,6 +2272,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.41")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1913,6 +2318,12 @@
 				(field
 					(name "Supplier_PN") "100.205.41")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1933,6 +2344,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.41")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1971,6 +2390,12 @@
 				(field
 					(name "Supplier_PN") "100.205.41")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -1991,6 +2416,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.41")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -2029,6 +2462,12 @@
 				(field
 					(name "Supplier_PN") "100.204.73")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -2049,6 +2488,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.204.73")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -2087,6 +2534,12 @@
 				(field
 					(name "Supplier_PN") "100.204.73")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -2107,6 +2560,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.204.73")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -2145,6 +2606,12 @@
 				(field
 					(name "Supplier_PN") "100.205.19")
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Function") "Glow current limit")
 				(field
 					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -2167,6 +2634,14 @@
 			(property
 				(name "Supplier_PN")
 				(value "100.205.19")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Function")
@@ -2207,7 +2682,12 @@
 				(field
 					(name "Supplier") "HESTORE")
 				(field
-					(name "Supplier_PN")
+					(name "Supplier_PN") "100.415.52")
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
 				)
 				(field
 					(name "Function") "Tactile volume, dual-gang 10k log")
@@ -2233,6 +2713,14 @@
 			)
 			(property
 				(name "Supplier_PN")
+				(value "100.415.52")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
 				(value "")
 			)
 			(property
@@ -2290,7 +2778,12 @@
 				(field
 					(name "Supplier") "HESTORE")
 				(field
-					(name "Supplier_PN")
+					(name "Supplier_PN") "100.415.52")
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
 				)
 				(field
 					(name "Function") "Headphone volume, dual-gang 10k log")
@@ -2316,6 +2809,14 @@
 			)
 			(property
 				(name "Supplier_PN")
+				(value "100.415.52")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
 				(value "")
 			)
 			(property
@@ -2373,7 +2874,12 @@
 				(field
 					(name "Supplier") "HESTORE")
 				(field
-					(name "Supplier_PN")
+					(name "Supplier_PN") "100.412.47")
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
 				)
 				(field
 					(name "Function") "Glow brightness set")
@@ -2399,6 +2905,14 @@
 			)
 			(property
 				(name "Supplier_PN")
+				(value "100.412.47")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
 				(value "")
 			)
 			(property
@@ -2447,7 +2961,13 @@
 				(field
 					(name "Supplier") "HESTORE")
 				(field
-					(name "Supplier_PN") "100.425.40")
+					(name "Supplier_PN") "100.425.66")
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
 				(field
 					(name "Footprint") "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal")
 				(field
@@ -2468,7 +2988,15 @@
 			)
 			(property
 				(name "Supplier_PN")
-				(value "100.425.40")
+				(value "100.425.66")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -2514,6 +3042,12 @@
 					(name "Supplier_PN")
 				)
 				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
+				)
+				(field
 					(name "Footprint") "Diode_THT:D_DO-15_P10.16mm_Horizontal")
 				(field
 					(name "Datasheet")
@@ -2533,6 +3067,14 @@
 			)
 			(property
 				(name "Supplier_PN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
 				(value "")
 			)
 			(property
@@ -2570,7 +3112,12 @@
 				(field
 					(name "Supplier") "HESTORE")
 				(field
-					(name "Supplier_PN")
+					(name "Supplier_PN") "100.346.37")
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "MPN")
 				)
 				(field
 					(name "Function") "Virtual ground rail splitter")
@@ -2594,6 +3141,14 @@
 			)
 			(property
 				(name "Supplier_PN")
+				(value "100.346.37")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "MPN")
 				(value "")
 			)
 			(property

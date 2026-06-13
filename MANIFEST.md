@@ -5,17 +5,28 @@
 | Item | Value |
 |---|---|
 | KiCad version used | 10.0.3 |
-| Export date/time | 2026-06-11T21:48:03Z |
+| Export date/time | 2026-06-13T15:30:54Z |
 | Git commit hash of upload | See Git history / final review-package status. A commit cannot contain its own hash because the hash is computed from the committed file contents. |
 | Source project | `suboli_control` |
 | Packaging scope | KiCad project plus generated ERC, netlist, BOM, and schematic renders |
 
 ARCHIVED — stale since commit 166da31. The .kicad_sch is the sole source of truth.
 
+design/ holds the locked SUBOLI PCB rules + manufacturing scripts — read before any layout or export work.
+
 ## File Tree
 
 ```text
 suboli-control-unit/
+├── design/
+│   ├── SUBOLI_DESIGN_RULES.md
+│   ├── design-spec.md
+│   ├── layout-rules.md
+│   ├── manufacturing.md
+│   ├── pcb-capability-report.md
+│   └── scripts/
+│       ├── export_manufacturing.sh
+│       └── preflight_layout.sh
 ├── MANIFEST.md
 ├── README.md
 ├── kicad/
@@ -67,7 +78,7 @@ MA12070 module is off-board, stacked on standoffs; speaker outputs wire module�
 | TVS1 | `Diode_THT:D_DO-15_P10.16mm_Horizontal` | Found |
 | F1 | `suboli_control:PPTC_LP30-300_P7.60mm` | Project-local custom footprint |
 | FB1 | `Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC` | Found |
-| C1 | `Capacitor_THT:CP_Radial_D12.5mm_P5.00mm` | Found |
+| C1 | `Capacitor_THT:CP_Radial_D16.0mm_P7.50mm` | Found |
 | C3, C11, C12 | `Capacitor_THT:CP_Radial_D10.0mm_P5.00mm` | Found |
 | C5, C6 | `Capacitor_THT:CP_Radial_D5.0mm_P2.00mm` | Found |
 | C9, C10 | `Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm` | Found |
@@ -109,7 +120,7 @@ No ERC warnings or errors reported.
 Verbatim ERC report excerpt:
 
 ```text
-ERC report (2026-06-11T23:47:39, Encoding UTF8)
+ERC report (2026-06-13T17:30:22, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -131,6 +142,8 @@ Report includes: Errors, Warnings, Exclusions
 | 3D render | Skipped because no PCB layout exists. |
 | Footprints | Assigned for all BOM references. Deferred-footprint list is EMPTY. |
 | Stock footprint validation | All assigned stock footprint names were found in installed KiCad libraries after the R3.1 footprint-name corrections. |
+| C1 footprint | Updated to `Capacitor_THT:CP_Radial_D16.0mm_P7.50mm` for the verified Ø16×20 mm, 7.5 mm pitch bulk capacitor. |
+| BOM enrichment | `reports/bom.csv` includes `Manufacturer`, `MPN`, and `Supplier_PN`; unknown MPNs remain blank. Supplier_PN is filled for 39/41 BOM rows. |
 | MA12070 module | Off-board, stacked on standoffs; speaker outputs wire module→Speakon directly; J5/J6 are the only board↔module interfaces. |
 | TVS1 | Value updated to `P6KE24A`; Supplier_PN remains pending. |
 | Interior glow | Added. glow circuit is power-rail driven, switched by SW1. |
@@ -148,3 +161,5 @@ Report includes: Errors, Warnings, Exclusions
 | 5. Footprint assignments verified against installed libraries | DONE | All assigned stock footprints were found in the installed KiCad libraries; the custom F1 footprint remains in the project-local `suboli_control` library. |
 | 6. Supplier fields exported in BOM | DONE | `reports/bom.csv` includes `Supplier` and `Supplier_PN` columns; J5/J6 carry the requested HESTORE order codes. |
 | 7. Generator script archived | DONE | `kicad/tools/generate_suboli_schematic_ARCHIVED.py` carries the archive header and the old generator path was removed. |
+| 8. PCB capability report committed | DONE | `design/pcb-capability-report.md` records KiCad MCP PCB mutation limits, Freerouting status, raw S-expression edit capability, and `gerbers`/`drill`/`pos` export availability. |
+| 9. Design rulebook committed | DONE | `design/` holds the locked SUBOLI PCB rules and manufacturing scripts. |
