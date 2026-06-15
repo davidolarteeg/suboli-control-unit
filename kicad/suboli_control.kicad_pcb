@@ -3569,11 +3569,11 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "5e9dedf8-db36-5b8d-9020-774201300916")
-		(at 65.92 70)
+		(at 65.92 70 180)
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV3"
-			(at -2.54 -3.66 0)
+			(at -2.54 -3.66 180)
 			(layer "F.SilkS")
 			(uuid "85183ae2-8589-41b3-9468-48a6baa1adc1")
 			(effects
@@ -3584,7 +3584,7 @@
 			)
 		)
 		(property "Value" "3296W-10K"
-			(at -2.54 3.67 0)
+			(at -2.54 3.67 180)
 			(layer "F.Fab")
 			(uuid "24ae4ebc-4ffa-4fcd-9786-f78f664c33b9")
 			(effects
@@ -3595,7 +3595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bf7f5c2c-d803-4615-aea1-e7108e8e91a2")
@@ -3606,7 +3606,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62476aa8-0e56-4eeb-93d1-dda685c9f5de")
@@ -3617,7 +3617,7 @@
 			)
 		)
 		(property "Supplier" "HESTORE"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e9da4b1-de36-57e6-b461-67e639b16752")
@@ -3629,7 +3629,7 @@
 			)
 		)
 		(property "Supplier_PN" "100.412.47"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ba94aaf-16d5-5e30-9e45-30afc828c98c")
@@ -3641,7 +3641,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b287680a-b039-5287-8ad6-e94357b557ac")
@@ -3653,7 +3653,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "12a476a3-512c-554f-81b3-eccb1ddf4791")
@@ -3665,7 +3665,7 @@
 			)
 		)
 		(property "Function" "Glow brightness set"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ea77bbb-2c1a-54df-bb39-f7739a3bcd61")
@@ -3677,7 +3677,7 @@
 			)
 		)
 		(property "Wiring" "rheostat: pin 1 in, wiper pin 2 tied to pin 3 out"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6f795068-c808-5c46-a99f-0fb40aa46fe9")
@@ -3689,7 +3689,7 @@
 			)
 		)
 		(property "KiLib_Generator" "potentiometer/THT"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5226d1d0-584a-4c4d-9406-4e304ee705db")
@@ -3797,7 +3797,7 @@
 			(uuid "2ebd5e64-70be-4844-8b5b-1be7a1efc292")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.175 0.005 0)
+			(at -3.175 0.005 180)
 			(layer "F.Fab")
 			(uuid "3da6e358-291b-4633-8387-c6510dcc6efc")
 			(effects
@@ -3808,7 +3808,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.44 1.44)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3817,7 +3817,7 @@
 			(uuid "13e50056-3e05-423a-b5e5-2b7740996dca")
 		)
 		(pad "2" thru_hole circle
-			(at -2.54 0)
+			(at -2.54 0 180)
 			(size 1.44 1.44)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3826,7 +3826,7 @@
 			(uuid "d33bad86-c70b-47f1-8674-b6d305acf57f")
 		)
 		(pad "3" thru_hole circle
-			(at -5.08 0)
+			(at -5.08 0 180)
 			(size 1.44 1.44)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -22463,15 +22463,15 @@
 		(uuid "b7bdcea3-08bf-56ba-a186-b2fffbb35164")
 	)
 	(segment
-		(start 63.38 70)
-		(end 63.38 74)
+		(start 68.46 70)
+		(end 68.46 74)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "/GLOW_B")
 		(uuid "eb28ded2-2050-516a-8ee9-6da64b58eebc")
 	)
 	(segment
-		(start 63.38 74)
+		(start 68.46 74)
 		(end 47.92 74)
 		(width 0.3)
 		(layer "F.Cu")
@@ -22493,6 +22493,22 @@
 		(layer "F.Cu")
 		(net "/GLOW_MID")
 		(uuid "287c3b50-a019-5688-82ee-ddf532c02067")
+	)
+	(segment
+		(start 60.08 70)
+		(end 65.92 70)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GLOW_A")
+		(uuid "5837db8c-eb57-5cc8-bf50-f0f460b20bb1")
+	)
+	(segment
+		(start 68.46 70)
+		(end 71 70)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GLOW_B")
+		(uuid "03a4174b-46b7-5100-ae1d-a8c3caa1cab4")
 	)
 	(embedded_fonts no)
 )
