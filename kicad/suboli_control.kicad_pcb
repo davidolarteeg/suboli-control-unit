@@ -22473,5 +22473,50 @@
 		(net "/+19V_F")
 		(uuid "c15937b7-0b21-5bd0-88a6-f0445093bc96")
 	)
+	(zone
+		(net "/GND_STAR")
+		(layers "F.Cu" "B.Cu")
+		(uuid "ecf8bfd1-b910-4ee7-b75d-4d1d8c0efb2f")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.2)
+		)
+		(min_thickness 0.5)
+		(fill
+			(thermal_gap 0.2)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 12.42 12.5) (xy 69.75 12.5) (xy 69.75 106.5) (xy 12.42 106.5)
+			)
+		)
+	)
+	(zone
+		(net "/GND_SIG")
+		(layers "F.Cu" "B.Cu")
+		(uuid "d6cb6293-d4e3-4a9a-9f53-3a7463302af9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.2)
+		)
+		(min_thickness 0.5)
+		(fill
+			(thermal_gap 0.2)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 70.25 12.5) (xy 136.42 12.5) (xy 136.42 106.5) (xy 70.25 106.5)
+			)
+		)
+		(polygon
+			(pts
+				(xy 110.2 46) (xy 116.2 46) (xy 116.2 52) (xy 110.2 52)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
