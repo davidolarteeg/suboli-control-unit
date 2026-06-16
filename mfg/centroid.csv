@@ -1,0 +1,41 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"A2","OPA1622 dual op-amp on DIP-8 adapter","DIP-8_W7.62mm_Socket",111.920000,-60.000000,0.000000,top
+"C1","1000 uF / 35 V bulk","CP_Radial_D16.0mm_P7.50mm",29.920000,-54.000000,0.000000,top
+"C2","100 nF main bypass","C_Disc_D7.5mm_W4.4mm_P5.00mm",44.920000,-50.000000,0.000000,top
+"C3","1000 uF / 25 V HP branch bulk","CP_Radial_D10.0mm_P5.00mm",97.920000,-50.000000,0.000000,top
+"C4","100 nF HP branch bypass","C_Disc_D7.5mm_W4.4mm_P5.00mm",93.920000,-61.000000,0.000000,top
+"C5","10 uF A2 V+ bulk decouple","CP_Radial_D5.0mm_P2.00mm",123.920000,-52.000000,0.000000,top
+"C6","10 uF VGND decouple","CP_Radial_D5.0mm_P2.00mm",109.920000,-40.000000,0.000000,top
+"C7","100 nF A2 V+ bypass","C_Disc_D7.5mm_W4.4mm_P5.00mm",111.920000,-72.000000,0.000000,top
+"C8","100 nF VGND bypass","C_Disc_D7.5mm_W4.4mm_P5.00mm",97.920000,-70.000000,0.000000,top
+"C9","1 uF film L input coupling","C_Rect_L7.2mm_W4.5mm_P5.00mm",85.920000,-70.000000,0.000000,top
+"C10","1 uF film R input coupling","C_Rect_L7.2mm_W4.5mm_P5.00mm",89.920000,-78.000000,0.000000,top
+"C11","470uF/25V L output coupling","CP_Radial_D10.0mm_P5.00mm",77.920000,-82.000000,0.000000,top
+"C12","470uF/25V R output coupling","CP_Radial_D10.0mm_P5.00mm",81.920000,-58.000000,0.000000,top
+"D1","SB560 Schottky reverse-polarity diode","D_DO-201AD_P15.24mm_Horizontal",48.920000,-36.000000,0.000000,top
+"F1","PPTC fuse ~3 A","PPTC_LP30-300_P7.60mm",27.920000,-36.000000,0.000000,top
+"FB1","Ferrite bead >=1 A","L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC",27.920000,-68.000000,0.000000,top
+"J1","DC barrel jack panel header 5.5x2.5","PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",26.920000,-22.000000,0.000000,top
+"J2","3.5 mm TRS input panel header","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",26.920000,-99.000000,0.000000,top
+"J4","3.5 mm TRS headphone panel header","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",126.475000,-66.500000,90.000000,top
+"J5","MA12070 module power","PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",83.920000,-23.000000,0.000000,top
+"J6","MA12070 module audio in","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",107.920000,-23.000000,90.000000,top
+"LED1","Power LED","LED_D5.0mm_NoSilkCircle",65.920000,-48.000000,0.000000,top
+"LED2","LL-504WC2EW61ED warm white 5mm","LED_D5.0mm_NoSilkCircle",47.920000,-78.000000,0.000000,top
+"LED3","LL-504WC2EW61ED warm white 5mm","LED_D5.0mm_NoSilkCircle",61.920000,-78.000000,0.000000,top
+"R1","8.2 k LED resistor","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",65.920000,-55.000000,0.000000,top
+"R2","100k L input bias to VGND","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",103.500000,-80.500000,0.000000,top
+"R3","100k R input bias to VGND","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",121.000000,-80.500000,0.000000,top
+"R4","10 k L feedback","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",103.500000,-86.000000,0.000000,top
+"R5","10 k L gain to VGND","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",121.000000,-86.000000,0.000000,top
+"R6","10 k R feedback","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",83.920000,-92.000000,0.000000,top
+"R7","10 k R gain to VGND","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",103.420000,-91.500000,0.000000,top
+"R8","10 ohm L output series","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",121.000000,-91.500000,0.000000,top
+"R9","10 ohm R output series","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",121.000000,-75.000000,0.000000,top
+"R10","1.2k","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",49.920000,-70.000000,0.000000,top
+"RV1","Dual-gang 10 k log tactile volume panel header","JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",51.920000,-99.000000,0.000000,top
+"RV2","Dual-gang 10 k log headphone volume panel header","JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",77.920000,-99.000000,0.000000,top
+"RV3","3296W-10K","Potentiometer_Bourns_3296W_Vertical",65.920000,-70.000000,180.000000,top
+"SW1","DPST power switch panel header","PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal",53.920000,-22.000000,0.000000,top
+"TVS1","P6KE24A","D_DO-15_P10.16mm_Horizontal",67.920000,-36.000000,0.000000,top
+"U1","TLE2426ILP","TO-92_Inline",111.920000,-49.000000,0.000000,top
