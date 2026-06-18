@@ -15,10 +15,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D1","SB560 Schottky reverse-polarity diode","D_DO-201AD_P15.24mm_Horizontal",48.920000,-36.000000,0.000000,top
 "F1","PPTC fuse ~3 A","PPTC_LP30-300_P7.60mm",27.920000,-36.000000,0.000000,top
 "FB1","Ferrite bead >=1 A","L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC",27.920000,-68.000000,0.000000,top
-"J1","DC barrel jack panel header 5.5x2.5","PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",26.920000,-22.000000,0.000000,top
+"J1","DC barrel jack panel header 5.5x2.5","PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",34.000000,-22.000000,180.000000,top
 "J2","3.5 mm TRS input panel header","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",26.920000,-99.000000,0.000000,top
 "J4","3.5 mm TRS headphone panel header","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",126.475000,-66.500000,90.000000,top
-"J5","MA12070 module power","PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",83.920000,-23.000000,0.000000,top
+"J5","MA12070 module power","PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",83.920000,-23.000000,180.000000,top
 "J6","MA12070 module audio in","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",107.920000,-23.000000,90.000000,top
 "LED1","Power LED","LED_D5.0mm_NoSilkCircle",65.920000,-48.000000,0.000000,top
 "LED2","LL-504WC2EW61ED warm white 5mm","LED_D5.0mm_NoSilkCircle",47.920000,-78.000000,0.000000,top
@@ -36,6 +36,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "RV1","Dual-gang 10 k log tactile volume panel header","JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",51.920000,-99.000000,0.000000,top
 "RV2","Dual-gang 10 k log headphone volume panel header","JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",77.920000,-99.000000,0.000000,top
 "RV3","3296W-10K","Potentiometer_Bourns_3296W_Vertical",65.920000,-70.000000,180.000000,top
-"SW1","DPST power switch panel header","PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal",53.920000,-22.000000,0.000000,top
+"SW1","DPST power switch panel header","PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal",60.000000,-22.000000,180.000000,top
 "TVS1","P6KE24A","D_DO-15_P10.16mm_Horizontal",67.920000,-36.000000,0.000000,top
 "U1","TLE2426ILP","TO-92_Inline",111.920000,-49.000000,0.000000,top
